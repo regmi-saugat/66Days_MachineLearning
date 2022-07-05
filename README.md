@@ -8,3 +8,23 @@
   - Multinomial Logistic Regression works in scenarios where the outcome can have more than two possible types – type A vs type B vs type C – that are not in any particular order.
   
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/01_logisticregression.png)
+
+**Day2 of 66DaysOfData!**
+  
+  **💡 Gradient Descent:**
+    - It is an algorithm to find the minimum of a convex function.  It is used in algorithm, for example, in linear regression.
+Gradient descent is an iterative optimization algorithm that is popular and it is a base for many other optimization techniques, which tries to obtain minimal loss in a model by tuning the weights/parameters in the objective function.
+    
+      There are threee types of Gradient Descent:
+            i. Batch Gradient Descent
+            ii. Stochastic Gradient Descent
+            iii. Mini Batch Gradient Descent
+            
+       Steps to achieve minimal loss:
+            1. Decide your cost function.
+            2. Choose random initial values for parameters θ, 
+            3. Find derivative of your cost function, 
+            4. Choosing appropriate learning rate, 
+            5. Update your parameters till you converge. This is where, you have found optimal θ values where your cost function, is minimum.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/02_gradient_descent.png)
