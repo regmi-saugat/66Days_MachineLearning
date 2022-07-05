@@ -27,4 +27,4 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
             4. Choosing appropriate learning rate, 
             5. Update your parameters till you converge. This is where, you have found optimal θ values where your cost function, is minimum.
 
-![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/02_gradient_descent.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/02_gradientdescent.png)
