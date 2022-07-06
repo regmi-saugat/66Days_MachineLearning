@@ -12,7 +12,7 @@
 **Day2 of 66DaysOfData!**
   
   **💡 Gradient Descent:**
-    - It is an algorithm to find the minimum of a convex function.  It is used in algorithm, for example, in linear regression.
+  - It is an algorithm to find the minimum of a convex function.  It is used in algorithm, for example, in linear regression.
 Gradient descent is an iterative optimization algorithm that is popular and it is a base for many other optimization techniques, which tries to obtain minimal loss in a model by tuning the weights/parameters in the objective function.
     
       There are threee types of Gradient Descent:
@@ -28,3 +28,12 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
             5. Update your parameters till you converge. This is where, you have found optimal θ values where your cost function, is minimum.
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/02_gradientdescent.png)
+
+**Day3 of 66DaysOfData!**
+  
+  **💡 Perceptron Algorithm:**
+  - The Perceptron is one of the simplest ANN architectures, invented by Frank Rosenblatt. It is based on a slightly different artificial neuron called a threshold logic unit (TLU).
+  - Perceptron algorithm is a simple classification method that plays an important role in development of the much more felxible neural network and are trained using the stochastic gradient descent optimization algorithm.
+  - It consists of single node or neuron that takes a row of data as input and predicts a class label. This is achieved by calculating the weighted sum of the inputs and a bias (set to 1). The weighted sum of the input is called activation.
+  
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/03_perceptron.png)
