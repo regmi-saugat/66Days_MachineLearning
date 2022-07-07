@@ -51,10 +51,10 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
           
           
           Steps to be carried out during the KNN algorithm are as follow:
-          1. First we need to select the number of neighbours we want to consider. 
-          2. We need to find the K-Neighbours based on any distance metric, that can be Euclidean/Manhatten/or custom distance metric.
+          1. First we need to select the number of neighbors we want to consider. 
+          2. We need to find the K-Neighbors based on any distance metric, that can be Euclidean/Manhatten/or custom distance metric.
           [The most commonly used method to calculate distance is Euclidean.]
-          3. Among selected K - neighbours, we need to count how many neighbours are form the different classes
-          4. Assign the test data sample to the class for which the count of neighbours was maximum
+          3. Among selected K - neighbors, we need to count how many neighbors are form the different classes
+          4. Assign the test data sample to the class for which the count of neighbors was maximum
   
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/04_knn.png)
