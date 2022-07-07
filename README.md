@@ -37,3 +37,24 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - It consists of single node or neuron that takes a row of data as input and predicts a class label. This is achieved by calculating the weighted sum of the inputs and a bias (set to 1). The weighted sum of the input is called activation.
   
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/03_perceptron.png)
+
+**Day4 of 66DaysOfData!**
+  
+  **💡 K Nearest Neighbor:**
+  - K-Nearest Neighbor is a Supervised Machine Learning Algorithm that is used to solve classificaiton as well as regression problems. 
+  - It is probably the first machine leanring algorithm developed and due to its simple nature, it is still widely accepted in solving many industrial problems. 
+  - Whenever new test sample comes, it tries to verify the similarity of the test sample with its training sample
+  
+          Properties which might define KNN well:
+          1. Lazy learning algorithm − KNN is a lazy learning algorithm because it does not have a specialized training phase and uses all the data for training while classification.
+          2. Non-parametric learning algorithm − KNN is also a non-parametric learning algorithm because it doesn’t assume anything about the underlying data.
+          
+          
+          Steps to be carried out during the KNN algorithm are as follow:
+          1. First we need to select the number of neighbours we want to consider. 
+          2. We need to find the K-Neighbours based on any distance metric, that can be Euclidean/Manhatten/or custom distance metric.
+          [The most commonly used method to calculate distance is Euclidean.]
+          3. Among selected K - neighbours, we need to count how many neighbours are form the different classes
+          4. Assign the test data sample to the class for which the count of neighbours was maximum
+  
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/04_knn.png)
