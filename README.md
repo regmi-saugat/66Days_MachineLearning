@@ -58,3 +58,10 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
           4. Assign the test data sample to the class for which the count of neighbors was maximum
   
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/04_knn.png)
+
+**Day5 of 66DaysOfData!**
+  
+  **💡 Decision Tree:**
+  - Decision tree is the powerful and popular tool for classification and regression that splits data-feature values into branches at decision nodes (eg, if a feature is a color, each possible color becomes a new branch) until a final decision output is made. 
+  - Generally, Decision tree are nothing but a giant structure of nested if-else condition. Mathematically, decision tree use hyperplanes which run parallel to any one of the axes to cut coordinatie system into hypercuboids. Also, I learned about Entropy, gini impurity, information gain, hyperparameters, overfitting, underfitting in decision tree.
+  - For regression, purity means the first child should have observations with high values of the target variable and the second should have observations with low values and similarly, for classification, purity means the first child should have observations primarily of one class and the second should have observations primarily of another.
