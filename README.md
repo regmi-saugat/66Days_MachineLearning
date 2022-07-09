@@ -62,6 +62,13 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 **Day5 of 66DaysOfData!**
   
   **💡 Decision Tree:**
-  - Decision tree is the powerful and popular tool for classification and regression that splits data-feature values into branches at decision nodes (eg, if a feature is a color, each possible color becomes a new branch) until a final decision output is made. 
-  - Generally, Decision tree are nothing but a giant structure of nested if-else condition. Mathematically, decision tree use hyperplanes which run parallel to any one of the axes to cut coordinatie system into hypercuboids. Also, I learned about Entropy, gini impurity, information gain, hyperparameters, overfitting, underfitting in decision tree.
+  - Decision tree is the powerful and popular tool for classification and regression that splits data-feature values into branches at decision nodes (eg, if a feature is a color, each possible color becomes a new branch) until a final decision output is made.
+  - Generally, Decision tree are nothing but a giant structure of nested if-else condition. Mathematically, decision tree use hyperplanes which run parallel to any one of the axes to cut coordinate system into hyper cuboids.
+  - Also, I learned about Entropy, GINI impurity, information gain, hyperparameters, overfitting, underfitting in decision tree. 
   - For regression, purity means the first child should have observations with high values of the target variable and the second should have observations with low values and similarly, for classification, purity means the first child should have observations primarily of one class and the second should have observations primarily of another.
+
+**Day6 of 66DaysOfData!**
+  **💡 Ensemble Voting Classifier:**
+  - A voting ensemble is an ensemble machine learning model that combines the predicitons from multiple other models. It implements hard and soft voting. In voting classifer, a hard voting ensemble picks class label that has the prediciton with the heighest number of votes, whereas soft voting classifies input data based on the probabilities of all the predictions made by different classifiers. Weights applied to each classifier get applied appropriately based on the given equation. I have presented the Implementation Voting Classifier using the Iris dataset here in the Snapshot. Excited about the days ahead!
+  
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/06_voting_classifier.png)
