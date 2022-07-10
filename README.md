@@ -3,7 +3,7 @@
 **Day1 of 66DaysOfData!**
   
   **💡 Logistic Regression:**
-  - Logistic Regression is the appropriate regression analysis to conduct when the dependent variable is binary. It is used to describe data and to explain the relationship between one dependent binary varible and one or more nominal, ordinal, interval or ratio-level varaibles.
+  - Logistic Regression is the appropriate regression analysis to conduct when the dependent variable is binary. It is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level variables.
   - Binary or Binomial Logistic Regression can be understood as the type of Logistic Regression that deals with scenarios wherein the observed outcomes for dependent variables can be only in binary, i.e., it can have only two possible types.
   - Multinomial Logistic Regression works in scenarios where the outcome can have more than two possible types – type A vs type B vs type C – that are not in any particular order.
   
@@ -15,25 +15,25 @@
   - It is an algorithm to find the minimum of a convex function.  It is used in algorithm, for example, in linear regression.
 Gradient descent is an iterative optimization algorithm that is popular and it is a base for many other optimization techniques, which tries to obtain minimal loss in a model by tuning the weights/parameters in the objective function.
     
-      There are threee types of Gradient Descent:
-            i. Batch Gradient Descent
-            ii. Stochastic Gradient Descent
-            iii. Mini Batch Gradient Descent
-            
-       Steps to achieve minimal loss:
-            1. Decide your cost function.
-            2. Choose random initial values for parameters θ, 
-            3. Find derivative of your cost function, 
-            4. Choosing appropriate learning rate, 
-            5. Update your parameters till you converge. This is where, you have found optimal θ values where your cost function, is minimum.
+        There are three types of Gradient Descent:
+              i. Batch Gradient Descent
+              ii. Stochastic Gradient Descent
+              iii. Mini Batch Gradient Descent
 
-![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/02_gradientdescent.png)
+         Steps to achieve minimal loss:
+              1. Decide your cost function.
+              2. Choose random initial values for parameters θ, 
+              3. Find derivative of your cost function, 
+              4. Choosing appropriate learning rate, 
+              5. Update your parameters till you converge. This is where, you have found optimal θ values where your cost function, is minimum.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/02_grad.descent.png)
 
 **Day3 of 66DaysOfData!**
   
   **💡 Perceptron Algorithm:**
   - The Perceptron is one of the simplest ANN architectures, invented by Frank Rosenblatt. It is based on a slightly different artificial neuron called a threshold logic unit (TLU).
-  - Perceptron algorithm is a simple classification method that plays an important role in development of the much more felxible neural network and are trained using the stochastic gradient descent optimization algorithm.
+  - Perceptron algorithm is a simple classification method that plays an important role in development of the much more flexible neural network and are trained using the stochastic gradient descent optimization algorithm.
   - It consists of single node or neuron that takes a row of data as input and predicts a class label. This is achieved by calculating the weighted sum of the inputs and a bias (set to 1). The weighted sum of the input is called activation.
   
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/03_perceptron.png)
@@ -41,18 +41,17 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 **Day4 of 66DaysOfData!**
   
   **💡 K Nearest Neighbor:**
-  - K-Nearest Neighbor is a Supervised Machine Learning Algorithm that is used to solve classificaiton as well as regression problems. 
-  - It is probably the first machine leanring algorithm developed and due to its simple nature, it is still widely accepted in solving many industrial problems. 
+  - K-Nearest Neighbor is a Supervised Machine Learning Algorithm that is used to solve classification as well as regression problems. 
+  - It is probably the first machine learning algorithm developed and due to its simple nature, it is still widely accepted in solving many industrial problems. 
   - Whenever new test sample comes, it tries to verify the similarity of the test sample with its training sample
   
           Properties which might define KNN well:
           1. Lazy learning algorithm − KNN is a lazy learning algorithm because it does not have a specialized training phase and uses all the data for training while classification.
           2. Non-parametric learning algorithm − KNN is also a non-parametric learning algorithm because it doesn’t assume anything about the underlying data.
           
-          
           Steps to be carried out during the KNN algorithm are as follow:
           1. First we need to select the number of neighbors we want to consider. 
-          2. We need to find the K-Neighbors based on any distance metric, that can be Euclidean/Manhatten/or custom distance metric.
+          2. We need to find the K-Neighbors based on any distance metric, that can be Euclidean/Manhattan/or custom distance metric.
           [The most commonly used method to calculate distance is Euclidean.]
           3. Among selected K - neighbors, we need to count how many neighbors are form the different classes
           4. Assign the test data sample to the class for which the count of neighbors was maximum
@@ -70,6 +69,19 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 **Day6 of 66DaysOfData!**
 
   **💡 Ensemble Voting Classifier:**
-  - A voting ensemble is an ensemble machine learning model that combines the predicitons from multiple other models. It implements hard and soft voting. In voting classifer, a hard voting ensemble picks class label that has the prediciton with the heighest number of votes, whereas soft voting classifies input data based on the probabilities of all the predictions made by different classifiers. Weights applied to each classifier get applied appropriately based on the given equation. I have presented the Implementation Voting Classifier using the Iris dataset here in the Snapshot. Excited about the days ahead!
+  - A voting ensemble is an ensemble machine learning model that combines the prediction from multiple other models. It implements hard and soft voting. In voting classifier, a hard voting ensemble picks class label that has the prediction with the highest number of votes, whereas soft voting classifies input data based on the probabilities of all the predictions made by different classifiers. Weights applied to each classifier get applied appropriately based on the given equation. I have presented the Implementation Voting Classifier using the Iris dataset here in the Snapshot. Excited about the days ahead!
   
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/06_voting_classifier.png)
+
+**Day7 of 66DaysOfData!**
+
+  **💡 Bagging Ensemble:**
+  - Bagging, also known as bootstrap aggregation, is the ensemble learning method that is commonly used to reduce variance within a noisy dataset. In bagging a random sample data in a training set is selected with replacement (individual datapoints can be chosen more than once). Similarly, when sampling is performed without replacement is called pasting. In bagging method weak learners are trained in parallel which exhibit high variance and low bias. Today I read and implemented about Bagging Ensemble such as Bagging Classifier, Bagging Regressor, and also revised some previous theories which I learned like Decision Tree, Gradient Descent and others. Here, I have presented the implementation of Bagging Classifier here in the snapshot. Excited about the days ahead!
+           
+          Some Bagging tips:
+          - Bagging generally gives better results than Pasting
+          - Good results around the 25% - 50% row sampling marks
+          - Random Patches and Subspaces should be used while dealing with high dimensional data.
+          - To find correct hyperparameter values we can do GridSearchCV or RandomSearchCV.
+          
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/07_bagging_classifier.png)
