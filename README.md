@@ -85,3 +85,10 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
           - To find correct hyperparameter values we can do GridSearchCV or RandomSearchCV.
           
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/07_bagging_classifier.png)
+
+**Day8 of 66DaysOfData!**
+  **💡 Random Forest:**
+  - A random forest is a slight extension to the bagging approach for decision trees that can further decrease overfitting and improve out-of-sample precision. Unlike bagging, random forest are exclusively designed for decision trees. Like bagging, a random forest combinesthe predictions of several base learners, each trained on a bootstrapped sample of the original training set. Random forests, however, add one additional regulatory step: at each split within each tree, we only consider splitting a randomly-chosen subset of the predictors. Hence, random forests average the results of several decision trees and add two sources of  randomness to ensure differentiation between the base learners: randomness in which observations are sampled via the bootstrapping and randomness in which predictors are considered at each split. 
+  - Concluding, Random forests average the results of several decision trees and add two sources of randomness to ensure differentiation between the base learners: randomness in which observations are sampled via the bootstrapping and randomness in which predictors are considered at each split. Here, I have presented the implementation of Random Forest using row sampling and column sampling here in the snapshot. Excited about the days ahead!
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/08_random_forest.png)
