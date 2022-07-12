@@ -98,7 +98,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   **💡 Adaboost:**
   - Like bagging and random forests, boosting combines multiple weak learners into one improved model. Boosting trains these weak learners sequentially, each one learning from the mistakes of the last. Rather than a single model, “boosting” refers to a class of sequential learning methods. We fit a weighted learner depends on the type of learner. AdaBoost (Adaptive Boosting) is a very popular boosting technique that aims at combining multiple weak classifiers to build one strong classifier. It follows a decision tree model with a depth equal to one. Here, I have presented the understanding and maths behind Adaboost algorithm. Excited about the days ahead!
 
-          Discrete Adaboost for Classification is achieved using the following steps:
+          Implementation of the adaboost algorithm:
           • Assign equal weights to all observation, W = 1/N
           • Classify random samples using stumps
           • Calculate the total error
