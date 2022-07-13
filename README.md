@@ -87,6 +87,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/07_bagging_classifier.png)
 
 **Day8 of 66DaysOfData!**
+
   **💡 Random Forest:**
   - A random forest is a slight extension to the bagging approach for decision trees that can further decrease overfitting and improve out-of-sample precision. Unlike bagging, random forest are exclusively designed for decision trees. Like bagging, a random forest combinesthe predictions of several base learners, each trained on a bootstrapped sample of the original training set. Random forests, however, add one additional regulatory step: at each split within each tree, we only consider splitting a randomly-chosen subset of the predictors. Hence, random forests average the results of several decision trees and add two sources of  randomness to ensure differentiation between the base learners: randomness in which observations are sampled via the bootstrapping and randomness in which predictors are considered at each split. 
   - Concluding, Random forests average the results of several decision trees and add two sources of randomness to ensure differentiation between the base learners: randomness in which observations are sampled via the bootstrapping and randomness in which predictors are considered at each split. Here, I have presented the implementation of Random Forest using row sampling and column sampling here in the snapshot. Excited about the days ahead!
@@ -95,6 +96,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 
 
 **Day9 of 66DaysOfData!**
+
   **💡 Adaboost:**
   - Like bagging and random forests, boosting combines multiple weak learners into one improved model. Boosting trains these weak learners sequentially, each one learning from the mistakes of the last. Rather than a single model, “boosting” refers to a class of sequential learning methods. We fit a weighted learner depends on the type of learner. AdaBoost (Adaptive Boosting) is a very popular boosting technique that aims at combining multiple weak classifiers to build one strong classifier. It follows a decision tree model with a depth equal to one. Here, I have presented the understanding and maths behind Adaboost algorithm. Excited about the days ahead!
 
