@@ -118,4 +118,4 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - Gradient Boosting is a system of machine learning boosting, representing a decision tree for large and complex data. It relies on the presumption that the next possible model will minimize the gross prediction error if combined with the previous set of models. The decision trees are used for the best possible predictions. It is a very powerful technique for building predictive models which is applicable for risk functions and optimizes prediction accuracy of those functions. 
  
           Steps of Gradient Tree Boosting Algorithm
-          ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/10_gradient_boosting_steps.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/10_gradient_boosting_steps.png)
