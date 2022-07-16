@@ -119,3 +119,18 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
  
           Steps of Gradient Tree Boosting Algorithm
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/10_gradient_boosting_steps.png)
+
+**Day11 of 66DaysOfData!**
+
+  **💡 Stacking:**
+  - Stacking also known as Stacked Generalization is a way to ensemble multiple classification or regression model. The architecture of the stacking model is designed in such way that it consists of two or more base/learner's models and meta-model that combines the predictions of base models. These base models are called level 0 models, and the meta model is called level 1 model. 
+ - Stacking takes the outputs of base-model as input and attempts to learn how to best combine the input predictions to make a better output prediction by meta-model. It involves combining the predictions from multiple learning models on the same datasets which is designed to improve modeling performance. The meta model is trained on the predictions made by base models on out-of-sample data. Here, I have presented the implementation of Stacking by K-Fold approach in the snapshot. Excited about the days ahead!
+
+          The steps applied in Stacking|K - Fold Approach:
+          • Split the data into Training/Testing and Validation datasets
+          • Decide the value of the k-fold(k)
+          • Train the level 0 Model
+          • Train the Level 1 Model
+          • Make predictions for the Testing/Validation Data
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/11_stacking.png)
