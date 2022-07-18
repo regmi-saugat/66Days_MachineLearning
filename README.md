@@ -134,3 +134,17 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
           • Make predictions for the Testing/Validation Data
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/11_stacking.png)
+
+**Day12 of 66DaysOfData!**
+
+  **💡 Principal Component Analysis:**
+  - PCA is a dimensionality reduction technique that enables us to identify correlations and patterns in a datasets so that it can be transformed into a new dataset of significantly best possible lower dimension without losing any importatnt data. It is an unsupervised algorithm that ignores the class labels and finds directions of maximal variance of data. It works on a condition that while the data in a higher-dimensional space is mapped to data in a lower dimension space, the variance or spread of the data in the lower dimensional space should be maximum. Here, I have presented the implementation of PCA using Iris dataset in the snapshot. I hope you will gain some insights and work on the same. Excited about the days ahead!
+  
+          The process involved during PCA:
+          • Standardize the data
+          • Calculate covaraince matrix
+          • Find EigenValues and EigenVectors
+          • Compute Principal Components 
+          • Reduce the dimension of the datasets
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/12_PCA.png)
