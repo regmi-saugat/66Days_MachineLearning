@@ -148,3 +148,20 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
           • Reduce the dimension of the datasets
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/12_PCA.png)
+
+
+**Day13 of 66DaysOfData!**
+
+  **💡 K-Means Clustering Algorithm:**
+  - K-Means Clustering is an Unsupervised Learning Algorithm which attempts to group observations into k groups, with each group having roughly equal variance. The number of groups, k, is specified by the user as a hyperparameter.
+  - The Elbow Method is one of the popular way to find the optimal number of clusters. This method uses the concept of WCSS value. WCSS stands for Within Cluster Sum of Squares, which defines the total variations within a cluster. Here, I have presented the implementation of K-Means algorithm from scratch in the snapshot. I hope you will gain some insights and work on the same. Excited about the days ahead!
+  
+            Steps included in K-Means Algorithm:
+            1. Decide the number of clusters 'k' 
+            2. Initialize k random points from data as centroids 
+            3. Assign all points to closest cluster centroid
+            4. Recompute the centroids of newly formed clusters 
+            5. Repeat the 3rd & 4th steps until newly formed clusters are not changing.
+            
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/13_KMeans_a.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/13_kmeans_b.png)
