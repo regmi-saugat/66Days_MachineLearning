@@ -165,3 +165,29 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
             
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/13_KMeans_a.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/13_kmeans_b.png)
+
+**Day14 of 66DaysOfData!**
+
+  **💡 Hierarchical Clustering Algorithm:**
+  - Hierarchial Clustering is an clustering algorithm that builds a hierarchy of clusters. This algorithm starts with all the data points assigned to a cluster of their own. Then two nearest clusters are merged into same cluster. In the end, this algorithm terminates when there is only a single cluster left. 
+  - The decision of the number of clusters that can best depict different groups can be choosen by observing the dendrogram. The best choice of the number of clusters is the number of  vertical lines in the dendrogram cut by a horizontal line that can transverse the maximum distance vertically without intersecting a cluster. 
+  
+              It is basically two types :
+              1. Agglomerative Clustering:
+              Here, each observation is initially considered as a cluster of its own. Then, the most similar clusters are successively merged until there is just one single big cluster. This hierarchy of clusters is represented as a dendrogram.
+
+              The steps followed for Agglomerative Clustering:
+              1. Initialize the proximity matrix
+              2. Make each point a cluster
+              3. Inside a loop:
+                • Merge the 2 closest clusters
+                • Update the proximity matrix.
+              4. Run the loop, until we left with single cluster
+              [Here, we can calculate the distance between clusters by Single Linkage, Complete Linkage, Group Average, Ward methods.]
+
+              2. Divisive Clustering:
+              It follows a top-to-down approach which is just opposite to Agglomerative clustering. Here, all the data points are assigned to a single cluster where each iteration, clusters are separated into other clusters based upon dissimilarity and the process repeats until we are left with n clusters.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/14_hierarchical_clustering_a.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/14_hierarchical_clustering_b.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/14_hierarchical_clustering_c.png)
