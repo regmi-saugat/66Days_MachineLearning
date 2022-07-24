@@ -170,7 +170,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 
   **💡 Hierarchical Clustering Algorithm:**
   - Hierarchial Clustering is an clustering algorithm that builds a hierarchy of clusters. This algorithm starts with all the data points assigned to a cluster of their own. Then two nearest clusters are merged into same cluster. In the end, this algorithm terminates when there is only a single cluster left. 
-  - The decision of the number of clusters that can best depict different groups can be choosen by observing the dendrogram. The best choice of the number of clusters is the number of  vertical lines in the dendrogram cut by a horizontal line that can transverse the maximum distance vertically without intersecting a cluster. 
+  - The decision of the number of clusters that can best depict different groups can be choosen by observing the dendrogram. The best choice of the number of clusters is the number of  vertical lines in the dendrogram cut by a horizontal line that can transverse the maximum distance vertically without intersecting a cluster. Here, I have presented the implementation of Hierarchical Clustering, obtained dendrogram and final visualization output of clustering in the snapshot. I hope you will gain some insights and work on the same. Excited about the days ahead! 
   
               It is basically two types :
               1. Agglomerative Clustering:
@@ -191,3 +191,25 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/14_hierarchical_clustering_a.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/14_hierarchical_clustering_b.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/14_hierarchical_clustering_c.png)
+
+**Day15 of 66DaysOfData!**
+
+  **💡 DBSCAN Clustering:**
+  - DBSCAN stands for Density Based Spatial Clustering of Application with Noise is based on point that are close to each other on a distance measurement(usually, Euclidean Distance) and a minimum numbers of points. It also marks as outlier the points that are in low-density regions labeled as noise. 
+  - The main idea behind DBSCAN is that a point belongs to a cluster if it is close to many points from that cluster. Here, I have presented the implementation of DBSCAN algorithm from scratch and its clustered output in the snapshot. I hope you will gain some insights and work on the same. Excited about the days ahead! 
+  
+              The data are classified into three points based on epsilon and minimum points parameters:
+              1. Core Points: Data points has at least minimum points within epsilon distance.
+              2. Boundary / Border Points: Data points has at least one core point within epsilon distance.
+              3. Noise Points: Data points that has no core points within epsilon distance.
+              
+              Steps followed in DBSCAN Algorithm:
+              1. Label points as the core, border, and noise points.
+              2. Eliminate all noise points.
+              3. For every core point that has not yet assigned a cluster,
+                a) Create a new cluster with the point.
+                b) add all the points that are density-connected.
+              4. Assign each border points to the cluster of the closest core point.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/15_dbscan_a.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/15_dbscan_b.png)
