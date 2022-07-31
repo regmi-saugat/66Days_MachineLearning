@@ -89,7 +89,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 **Day8 of 66DaysOfData!**
 
   **💡 Random Forest:**
-  - A random forest is a slight extension to the bagging approach for decision trees that can further decrease overfitting and improve out-of-sample precision. Unlike bagging, random forest are exclusively designed for decision trees. Like bagging, a random forest combinesthe predictions of several base learners, each trained on a bootstrapped sample of the original training set. Random forests, however, add one additional regulatory step: at each split within each tree, we only consider splitting a randomly-chosen subset of the predictors. Hence, random forests average the results of several decision trees and add two sources of  randomness to ensure differentiation between the base learners: randomness in which observations are sampled via the bootstrapping and randomness in which predictors are considered at each split. 
+  - A random forest is a slight extension to the bagging approach for decision trees that can further decrease overfitting and improve out-of-sample precision. Unlike bagging, random forest are exclusively designed for decision trees. Like bagging, a random forest combines the predictions of several base learners, each trained on a bootstrapped sample of the original training set. Random forests, however, add one additional regulatory step: at each split within each tree, we only consider splitting a randomly-chosen subset of the predictors. Hence, random forests average the results of several decision trees and add two sources of  randomness to ensure differentiation between the base learners: randomness in which observations are sampled via the bootstrapping and randomness in which predictors are considered at each split. 
   - Concluding, Random forests average the results of several decision trees and add two sources of randomness to ensure differentiation between the base learners: randomness in which observations are sampled via the bootstrapping and randomness in which predictors are considered at each split. Here, I have presented the implementation of Random Forest using row sampling and column sampling here in the snapshot. Excited about the days ahead!
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/08_random_forest.png)
@@ -98,7 +98,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 **Day9 of 66DaysOfData!**
 
   **💡 Adaboost:**
-  - Like bagging and random forests, boosting combines multiple weak learners into one improved model. Boosting trains these weak learners sequentially, each one learning from the mistakes of the last. Rather than a single model, “boosting” refers to a class of sequential learning methods. We fit a weighted learner depends on the type of learner. AdaBoost (Adaptive Boosting) is a very popular boosting technique that aims at combining multiple weak classifiers to build one strong classifier. It follows a decision tree model with a depth equal to one. Here, I have presented the understanding and maths behind Adaboost algorithm. Excited about the days ahead!
+  - Like bagging and random forests, boosting combines multiple weak learners into one improved model. Boosting trains these weak learners sequentially, each one learning from the mistakes of the last. Rather than a single model, “boosting” refers to a class of sequential learning methods. We fit a weighted learner depends on the type of learner. AdaBoost (Adaptive Boosting) is a very popular boosting technique that aims at combining multiple weak classifiers to build one strong classifier. It follows a decision tree model with a depth equal to one. Here, I have presented the understanding and math behind Adaboost algorithm. Excited about the days ahead!
 
           Implementation of the adaboost algorithm:
           • Assign equal weights to all observation, W = 1/N
@@ -106,7 +106,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
           • Calculate the total error
           • Calculate performance of the stump
           • Update the weights
-          • Update weights in Interation
+          • Update weights in Iteration
           • Final Prediction
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/09_adaboost_a.png)
@@ -126,7 +126,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - Stacking also known as Stacked Generalization is a way to ensemble multiple classification or regression model. The architecture of the stacking model is designed in such way that it consists of two or more base/learner's models and meta-model that combines the predictions of base models. These base models are called level 0 models, and the meta model is called level 1 model. 
  - Stacking takes the outputs of base-model as input and attempts to learn how to best combine the input predictions to make a better output prediction by meta-model. It involves combining the predictions from multiple learning models on the same datasets which is designed to improve modeling performance. The meta model is trained on the predictions made by base models on out-of-sample data. Here, I have presented the implementation of Stacking by K-Fold approach in the snapshot. Excited about the days ahead!
 
-          The steps applied in Stacking|K - Fold Approach:
+          The steps applied in Stacking | K - Fold Approach:
           • Split the data into Training/Testing and Validation datasets
           • Decide the value of the k-fold(k)
           • Train the level 0 Model
@@ -138,11 +138,11 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 **Day12 of 66DaysOfData!**
 
   **💡 Principal Component Analysis:**
-  - PCA is a dimensionality reduction technique that enables us to identify correlations and patterns in a datasets so that it can be transformed into a new dataset of significantly best possible lower dimension without losing any importatnt data. It is an unsupervised algorithm that ignores the class labels and finds directions of maximal variance of data. It works on a condition that while the data in a higher-dimensional space is mapped to data in a lower dimension space, the variance or spread of the data in the lower dimensional space should be maximum. Here, I have presented the implementation of PCA using Iris dataset in the snapshot. I hope you will gain some insights and work on the same. Excited about the days ahead!
+  - PCA is a dimensionality reduction technique that enables us to identify correlations and patterns in a datasets so that it can be transformed into a new dataset of significantly best possible lower dimension without losing any important data. It is an unsupervised algorithm that ignores the class labels and finds directions of maximal variance of data. It works on a condition that while the data in a higher-dimensional space is mapped to data in a lower dimension space, the variance or spread of the data in the lower dimensional space should be maximum. Here, I have presented the implementation of PCA using Iris dataset in the snapshot. I hope you will gain some insights and work on the same. Excited about the days ahead!
   
           The process involved during PCA:
           • Standardize the data
-          • Calculate covaraince matrix
+          • Calculate covariance matrix
           • Find EigenValues and EigenVectors
           • Compute Principal Components 
           • Reduce the dimension of the datasets
@@ -169,8 +169,8 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 **Day14 of 66DaysOfData!**
 
   **💡 Hierarchical Clustering Algorithm:**
-  - Hierarchial Clustering is an clustering algorithm that builds a hierarchy of clusters. This algorithm starts with all the data points assigned to a cluster of their own. Then two nearest clusters are merged into same cluster. In the end, this algorithm terminates when there is only a single cluster left. 
-  - The decision of the number of clusters that can best depict different groups can be choosen by observing the dendrogram. The best choice of the number of clusters is the number of  vertical lines in the dendrogram cut by a horizontal line that can transverse the maximum distance vertically without intersecting a cluster. Here, I have presented the implementation of Hierarchical Clustering, obtained dendrogram and final visualization output of clustering in the snapshot. I hope you will gain some insights and work on the same. Excited about the days ahead! 
+  - Hierarchical Clustering is an clustering algorithm that builds a hierarchy of clusters. This algorithm starts with all the data points assigned to a cluster of their own. Then two nearest clusters are merged into same cluster. In the end, this algorithm terminates when there is only a single cluster left. 
+  - The decision of the number of clusters that can best depict different groups can be chosen by observing the dendrogram. The best choice of the number of clusters is the number of  vertical lines in the dendrogram cut by a horizontal line that can transverse the maximum distance vertically without intersecting a cluster. Here, I have presented the implementation of Hierarchical Clustering, obtained dendrogram and final visualization output of clustering in the snapshot. I hope you will gain some insights and work on the same. Excited about the days ahead! 
   
               It is basically two types :
               1. Agglomerative Clustering:
@@ -213,3 +213,12 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/15_dbscan_a.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/15_dbscan_b.png)
+
+**Day16 of 66DaysOfData!**
+
+  **💡 Support Vector Machine:**
+  - It's a supervised machine learning algorithm which can be used for both classification or regression problems. But it's usually used for classification. Given 2 or more labeled classes of data, it acts as a discriminative classifier, formally defined by an optimal hyperplane that seperates all the classes.
+  - Support vectors are the data points nearest to the hyperplane, the points of a data set that, if removed, would alter the position of the dividing hyperplane. Because of this, they can be considered the critical elements of a data set, they are what help us build our SVM.
+  - The data is sometimes not linearly separable (like the case above) so the kernel trick is to map this space into higher dimension, where they are linearly separable. Then mapping the classification back into the original space gives non-linear classifier. This mapping function that maps lower dimensional data to higher is called as the kernel. Here, I have presented the implementation of Support Vector Machine algorithm from scratch in the snapshot. I hope you will gain some insights and work on the same. Excited about the days ahead! 
+  
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/16_support_vector_machine.png)
