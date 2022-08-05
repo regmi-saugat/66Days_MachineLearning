@@ -222,3 +222,21 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - The data is sometimes not linearly separable so the kernel trick is to map this space into higher dimension, where they are linearly separable. Then mapping the classification back into the original space gives non-linear classifier. This mapping function that maps lower dimensional data to higher is called as the kernel. Here, I have presented the implementation of Support Vector Machine algorithm from scratch in the snapshot. I hope you will gain some insights and work on the same. Excited about the days ahead! 
   
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/16_support_vector_machine.png)
+
+**Day17 of 66DaysOfData!**
+
+  **💡 Cross Validation:**
+  - Cross Validation is a resampling procedure used to evaluate Machine Learning Models on a limited data sample which has a parameter that splits the data into number of groups. In a cross validation method, we have to fix the number of folds of data and run the analysis on each folds and average overall error estimate. 
+  - K fold cross validation is one of the popular method because it is easy to understand and also it is less biased than other method. Here, in the snapshot I have presented the implementation of k fold cross validation using breast cancer dataset and got around 95% accuracy. I hope you will gain some insights and work on the same. Excited about the days ahead! 
+
+              Steps for k-fold- Cross Validation:
+              1. Shuffle the dataset randomly.
+              2. Split the dataset into k groups
+              3. For each unique group:
+                    • Take the group as a holdout or test data set
+                    • Take the remaining groups as a training data set
+                    • Fit a model on the training set and evaluate it on the test set
+                    • Retain the evaluation score and discard the model
+              4. Summarize the skill of the model using the sample of model evaluation scores
+              
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/17_cross_validation.png)
