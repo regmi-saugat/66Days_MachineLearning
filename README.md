@@ -240,3 +240,13 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
               4. Summarize the skill of the model using the sample of model evaluation scores
               
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/17_cross_validation.png)
+
+**Day19 of 66DaysOfData!**
+
+  **💡 Bias - Variance TradeOff:**
+  - Bias: Bias is the inability of a model to learn enough about the relationship between the predictors and the response that’s implied by the dataset. Such error is occured due to wrong assumptions. High bias underfit the training data and create a high training error.
+  - Variance: It is the variability of model prediction for a given data point which tells us spread of data. The model with high variance has a very complex fit to the training data and thus not able to fit accurately on the data which it hasn’t seen before. 
+  - Irreducible error: It is due to the noisiness of the data itself. The only way to reduce this part of the error is to clean up the data (fixing the data sources, such as broken sensors, or detect and remove outliers).
+  - The bias-variance trade-off is the tension between bias and variance in ML models. Biased models fail to capture the true trend, resulting in underfitting, whereas low-bias high-variance models likely result in overfitting.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/18_biasvaraince_tradeoff.png)
