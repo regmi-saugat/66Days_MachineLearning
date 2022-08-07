@@ -241,7 +241,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
               
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/17_cross_validation.png)
 
-**Day19 of 66DaysOfData!**
+**Day18 of 66DaysOfData!**
 
   **💡 Bias - Variance TradeOff:**
   - Bias: Bias is the inability of a model to learn enough about the relationship between the predictors and the response that’s implied by the dataset. Such error is occured due to wrong assumptions. High bias underfit the training data and create a high training error.
