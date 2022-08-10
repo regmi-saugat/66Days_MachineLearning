@@ -250,3 +250,13 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - The bias-variance trade-off is the tension between bias and variance in ML models. Biased models fail to capture the true trend, resulting in underfitting, whereas low-bias high-variance models likely result in overfitting.
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/18_biasvaraince_tradeoff.png)
+
+**Day19 of 66DaysOfData!**
+
+  **💡 Gradient Descent:**
+  - Gradient Descent is an first order interactive optimization algorithm for finding a local minimum of a differentiable function. It's based on a convex function and tweaks its parameters iteratively to minimize a given function to its local minimum. The main objective of using a gradient descent algorithm is to minimize the cost function using iteration.
+  -  We start by filling theta value with random values, which is called random initialization and then we improve it gradually taking one small step at a time. The size of these steps is known learning rate. This is typically a small value that is evaluated and updated based on the behavior of the cost function.
+  **💡 Batch Gradient Descent:**
+  - Batch Gradient Descent involves calculations over the full training set at each step as a result of which it is very slow on very large training data. Parameters are updated after computing the gradient of the error with respect to the entire training set. As a result, it takes a longer time to train when the size of the training set is large. 
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/19_gradient_descent_b.png)
