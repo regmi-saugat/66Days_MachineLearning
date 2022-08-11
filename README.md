@@ -261,3 +261,13 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - Batch Gradient Descent involves calculations over the full training set at each step as a result of which it is very slow on very large training data. Parameters are updated after computing the gradient of the error with respect to the entire training set. As a result, it takes a longer time to train when the size of the training set is large. 
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/19_gradient_descent_b.png)
+
+**Day20f 66DaysOfData!**
+
+  **💡 Stochastic Gradient Descent:**
+  - In batch gradient descent, we look at every example in the entire training set on every step. This can be quite slow if the training set is sufficiently large. To overcome this, stochastic gradient descent update values after looking at each item in the training set,so that we can start making progress right away. It has been shown that SGD almost surely converges to the global cost minimum if the cost function is convex.
+  - Stochastic gradient descent attempts to find the global minimum by adjusting the configuration of the network after each training point. Instead of decreasing the error, or finding the gradient, for the entire data set, this method merely decreases the error by approximating the gradient for a randomly selected batch.
+  - SGD algorithm derivative is computed taking one point at a time & memory requirement is less compared to the gradient descent algorithm. A crucial parameter for SGD is the learning rate, it is necessary to decrease the learning rate over the time. 
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/20_sgd_a.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/20_sgd_b.png)
