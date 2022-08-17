@@ -276,6 +276,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 
   **💡 Perceptron:**
   - Perceptron are linear, binary classifier which is used to classify instances into one of two classes. Perceptrons fit a linear decision boundary in order to seperate the classes where classes are linearly seperable. The structure of perceptron consists of a single layer of Threshold Logic Units (TLU's) where it compute's a weighted sum of it's inputs and applies step function to sum and output results. A drawback to the perceptron model is that it is unable to fit non-linear decision boundaries.
+
   **💡 Multilayer Perceptron:**
   - Multilayer Perceptron also known as vanilla neural network are able to overcome the drawbacks of perceptrons. They are able to fit complex non-linear decision boundaries. A MLP is composed of multiple perceptrons which has one input layer, one or more layers of hidden layers, and one output layer. Every layer except the output layer includes a bias neuron and is fully connected to the next layer. 
 - The inputs are combined with the initial weights in a weighted sum and subjected to the activation function where each layer is linearly combined to the propagated to the next layer. All the computation of internal representation of the data goes through the hidden layer to the output layer. 
