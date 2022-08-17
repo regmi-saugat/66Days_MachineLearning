@@ -262,7 +262,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/19_gradient_descent_b.png)
 
-**Day20f 66DaysOfData!**
+**Day20 66DaysOfData!**
 
   **💡 Stochastic Gradient Descent:**
   - In batch gradient descent, we look at every example in the entire training set on every step. This can be quite slow if the training set is sufficiently large. To overcome this, stochastic gradient descent update values after looking at each item in the training set,so that we can start making progress right away. It has been shown that SGD almost surely converges to the global cost minimum if the cost function is convex.
@@ -271,3 +271,12 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/20_sgd_a.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/20_sgd_b.png)
+
+**Day21 66DaysOfData!**
+
+  **💡 Perceptron:**
+  - Perceptron are linear, binary classifier which is used to classify instances into one of two classes. Perceptrons fit a linear decision boundary in order to seperate the classes where classes are linearly seperable. The structure of perceptron consists of a single layer of Threshold Logic Units (TLU's) where it compute's a weighted sum of it's inputs and applies step function to sum and output results. A drawback to the perceptron model is that it is unable to fit non-linear decision boundaries.
+  **💡 Multilayer Perceptron:**
+  - Multilayer Perceptron also known as vanilla neural network are able to overcome the drawbacks of perceptrons. They are able to fit complex non-linear decision boundaries. A MLP is composed of multiple perceptrons which has one input layer, one or more layers of hidden layers, and one output layer. Every layer except the output layer includes a bias neuron and is fully connected to the next layer. 
+- The inputs are combined with the initial weights in a weighted sum and subjected to the activation function where each layer is linearly combined to the propagated to the next layer. All the computation of internal representation of the data goes through the hidden layer to the output layer. 
+- The inputs are pushed forward through the MLP by taking the dot product of the input with the weights that exist between the input layer and the hidden layer. This dot product results a value at the hidden layer where it uses activation function in each hidden layer. Once the calculated output at the hidden layer been pushed through the activation function, it pushes to the next layer in the MLP by taking the dot product with the corresponding weights and the steps is done until it reaches to the output layer.
