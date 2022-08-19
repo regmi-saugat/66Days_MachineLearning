@@ -281,3 +281,21 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - Multilayer Perceptron also known as vanilla neural network are able to overcome the drawbacks of perceptrons. They are able to fit complex non-linear decision boundaries. A MLP is composed of multiple perceptrons which has one input layer, one or more layers of hidden layers, and one output layer. Every layer except the output layer includes a bias neuron and is fully connected to the next layer. 
 - The inputs are combined with the initial weights in a weighted sum and subjected to the activation function where each layer is linearly combined to the propagated to the next layer. All the computation of internal representation of the data goes through the hidden layer to the output layer. 
 - The inputs are pushed forward through the MLP by taking the dot product of the input with the weights that exist between the input layer and the hidden layer. This dot product results a value at the hidden layer where it uses activation function in each hidden layer. Once the calculated output at the hidden layer been pushed through the activation function, it pushes to the next layer in the MLP by taking the dot product with the corresponding weights and the steps is done until it reaches to the output layer.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/21_MLP.png)
+
+
+**Day22 66DaysOfData!**
+
+  **💡 Backpropagation:**
+  - Back-propagation is the way of propagating the total loss back into the neural network to know how much of the loss every node is responsible for subsequently updating the weights in such a way that it minimizes the loss by giving the nodes with higher error rates lower weights and vice versa.
+  - We can only change the weights and biases, but activations are direct calculation of those weights and biases, which means we can indirectly adjust every part of the neural network, to get the desired output except for the input layer, since that is the dataset that we input.
+  
+              The steps for the back-propagation:
+              • At first, we start with the random initialization
+              • Predict the input by the forward propagation.
+              • Calcualte the loss using the loss function.
+              • Calculate the derivative of the error (to update weight and bias using gradient descent).
+              • Calculate the average loss and the update weight, continue the process until we get minimum error.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/22_backpropagation.png)
