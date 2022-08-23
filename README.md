@@ -299,3 +299,17 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
               • Calculate the average loss and the update weight, continue the process until we get minimum error.
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/22_backpropagation.png)
+
+**Day23 66DaysOfData!**
+
+  **💡 Vanishing Gradient Problem:**
+  - Vanishing Gradient Problem is a difficulty found in training certain ANN with gradient based methods (e.g Back Propagation). In particular, this problem makes it really hard to learn and tune the parameters of the earlier layers in the network. This problem becomes worse as the number of layers in the architecture increases.
+  - It arises when more layers using sigmoid or tanh activation functions are added to neural networks, the gradients of the loss function approaches zero, making the network hard to train.
+  - Gradient based methods learn a parameter's value by understanding how a small change in the parameter's value will affect the network's output. If a change in the parameter's value causes very small change in the network's output - the network just can't learn the parameter effectively, which is a problem.
+              Some methods for handling vanishing gradient problems:
+              • Reduce model complexity (This method is not much applicable)
+              • Using activation functions like ReLU
+              • Proper weight initialization
+              • Use Batch initialization
+              • Residual Network (ResNets)
+  - We can avoid this problem by using activation functions which don't have this property of 'squashing' the input space into a small region. A popular choice is Rectified Linear Unit(ReLU)
