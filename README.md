@@ -306,6 +306,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - Vanishing Gradient Problem is a difficulty found in training certain ANN with gradient based methods (e.g Back Propagation). In particular, this problem makes it really hard to learn and tune the parameters of the earlier layers in the network. This problem becomes worse as the number of layers in the architecture increases.
   - It arises when more layers using sigmoid or tanh activation functions are added to neural networks, the gradients of the loss function approaches zero, making the network hard to train.
   - Gradient based methods learn a parameter's value by understanding how a small change in the parameter's value will affect the network's output. If a change in the parameter's value causes very small change in the network's output - the network just can't learn the parameter effectively, which is a problem.
+              
               Some methods for handling vanishing gradient problems:
               • Reduce model complexity (This method is not much applicable)
               • Using activation functions like ReLU
