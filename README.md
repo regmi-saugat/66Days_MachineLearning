@@ -314,3 +314,23 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
               • Use Batch initialization
               • Residual Network (ResNets)
   - We can avoid this problem by using activation functions which don't have this property of 'squashing' the input space into a small region. A popular choice is Rectified Linear Unit(ReLU)
+
+**Day24 66DaysOfData!**
+
+  **💡 Improving the performance of Neural Networks::**
+  - Neural networks are ML algorithms that provides state of the accuracy on many use cases. But, many times the performance of network we are building might not be satisfactory. So, in order to improve the performance of our models there are several ways through which we can improve the performance. 
+
+              There are several problems ocurred due to which the performance may become slow:
+              - Vanishing or Exploding gradient problems
+              - Not having enough data
+              - Slow training process
+              - Overfitting
+
+              Here are some of the ways to increase the performance(accuracy) of neural models.
+              1. Experimenting with number of hidden layers
+              2. Number of neurons per layer
+              3. Learning rate
+              4. Optimizer
+              5. Batch size
+              6. Activation functions
+              7. Epochs
