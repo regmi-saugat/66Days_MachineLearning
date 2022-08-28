@@ -317,7 +317,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 
 **Day24 66DaysOfData!**
 
-  **💡 Improving the performance of Neural Networks::**
+  **💡 Improving the performance of Neural Networks:**
   - Neural networks are ML algorithms that provides state of the accuracy on many use cases. But, many times the performance of network we are building might not be satisfactory. So, in order to improve the performance of our models there are several ways through which we can improve the performance. 
 
               There are several problems ocurred due to which the performance may become slow:
@@ -334,3 +334,14 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
               5. Batch size
               6. Activation functions
               7. Epochs
+
+**Day25 66DaysOfData!**
+
+  **💡 Data Scaling:**
+  - Data scaling can improve deep learning model stability and performance and is a recommended pre-processing step when working with deep learning neural networks. Data scaling can be achieved by normalizing or standardizing real-valued input and output variables.
+  - Normalization is a rescaling of the data from the original range so that all values are within the range of 0 and 1.
+  - Standardizing is the process of rescaling the distribution of values so that the mean of observed values is 0 and the standard deviation is 1.
+  - The first plot shows the graph without scaling and here the validation accuracy oscillate from 40 - 60 and it can't converge even after completing the epochs. But, in the second graph plot after applying data scaling the validation accuracy gradually increases and reach to it's maximum point, for this here we have used standardization.
+  
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/25_scaling_a.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/25_scaling_b.png)
