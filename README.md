@@ -1,5 +1,7 @@
 # **Journey of 66DaysOfData in Machine Learning**
 
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/main.png)
+
 **Day1 of 66DaysOfData!**
   
   **💡 Logistic Regression:**
