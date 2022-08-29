@@ -347,3 +347,16 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/25_scaling_a.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/25_scaling_b.png)
+
+**Day25 66DaysOfData!**
+
+  **💡 Dropout:**
+  - Dropout is an approach  to regularization in neural networks which helps to reduce interdependent learning amongst the neurons. It is used as regularization technique in order to reduce overfitting. A fully connected layer occupies most of the parameters, and hence, neurons develop co-dependency amongst each other during training which curbs the individual power of each neuron leading to over-fitting of training data.
+  - At each training stage, individual nodes are either dropped out of the net with probability (1-p) or kept with probability p, so that a reduced network is left,  incoming and outgoing edges to a dropped-out node are also removed.
+
+              General tricks for dropout technique:
+                1. Dropout layer is usually applied in last layer & if the result did not came good then only applied to other layers.
+                2. If there is overfitting increase value of p and if underfitting then decrease the value of p
+                
+  - One of the drawbacks of dropout is that it increases training time. A dropout network typically takes 2-3 times longer to train than a standard neural network of the same architecture.              
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/26_dropout.png)
