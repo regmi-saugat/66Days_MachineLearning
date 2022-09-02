@@ -264,7 +264,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/19_gradient_descent_b.png)
 
-**Day20 66DaysOfData!**
+**Day20 of 66DaysOfData!**
 
   **💡 Stochastic Gradient Descent:**
   - In batch gradient descent, we look at every example in the entire training set on every step. This can be quite slow if the training set is sufficiently large. To overcome this, stochastic gradient descent update values after looking at each item in the training set,so that we can start making progress right away. It has been shown that SGD almost surely converges to the global cost minimum if the cost function is convex.
@@ -274,7 +274,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/20_sgd_a.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/20_sgd_b.png)
 
-**Day21 66DaysOfData!**
+**Day21 of 66DaysOfData!**
 
   **💡 Perceptron:**
   - Perceptron are linear, binary classifier which is used to classify instances into one of two classes. Perceptrons fit a linear decision boundary in order to seperate the classes where classes are linearly seperable. The structure of perceptron consists of a single layer of Threshold Logic Units (TLU's) where it compute's a weighted sum of it's inputs and applies step function to sum and output results. A drawback to the perceptron model is that it is unable to fit non-linear decision boundaries.
@@ -287,7 +287,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/21_MLP.png)
 
 
-**Day22 66DaysOfData!**
+**Day22 of 66DaysOfData!**
 
   **💡 Backpropagation:**
   - Back-propagation is the way of propagating the total loss back into the neural network to know how much of the loss every node is responsible for subsequently updating the weights in such a way that it minimizes the loss by giving the nodes with higher error rates lower weights and vice versa.
@@ -302,7 +302,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/22_backpropagation.png)
 
-**Day23 66DaysOfData!**
+**Day23 of 66DaysOfData!**
 
   **💡 Vanishing Gradient Problem:**
   - Vanishing Gradient Problem is a difficulty found in training certain ANN with gradient based methods (e.g Back Propagation). In particular, this problem makes it really hard to learn and tune the parameters of the earlier layers in the network. This problem becomes worse as the number of layers in the architecture increases.
@@ -317,7 +317,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
               • Residual Network (ResNets)
   - We can avoid this problem by using activation functions which don't have this property of 'squashing' the input space into a small region. A popular choice is Rectified Linear Unit(ReLU)
 
-**Day24 66DaysOfData!**
+**Day24 of 66DaysOfData!**
 
   **💡 Improving the performance of Neural Networks:**
   - Neural networks are ML algorithms that provides state of the accuracy on many use cases. But, many times the performance of network we are building might not be satisfactory. So, in order to improve the performance of our models there are several ways through which we can improve the performance. 
@@ -337,7 +337,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
               6. Activation functions
               7. Epochs
 
-**Day25 66DaysOfData!**
+**Day25 of 66DaysOfData!**
 
   **💡 Data Scaling:**
   - Data scaling can improve deep learning model stability and performance and is a recommended pre-processing step when working with deep learning neural networks. Data scaling can be achieved by normalizing or standardizing real-valued input and output variables.
@@ -348,7 +348,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/25_scaling_a.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/25_scaling_b.png)
 
-**Day25 66DaysOfData!**
+**Day26 of 66DaysOfData!**
 
   **💡 Dropout:**
   - Dropout is an approach  to regularization in neural networks which helps to reduce interdependent learning amongst the neurons. It is used as regularization technique in order to reduce overfitting. A fully connected layer occupies most of the parameters, and hence, neurons develop co-dependency amongst each other during training which curbs the individual power of each neuron leading to over-fitting of training data.
@@ -360,3 +360,33 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
                 
   - One of the drawbacks of dropout is that it increases training time. A dropout network typically takes 2-3 times longer to train than a standard neural network of the same architecture.              
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/26_dropout.png)
+
+**Day27 of 66DaysOfData!**
+
+  **💡 Activation Function:**
+  - An activation function in a neural network defines how the weighted sum of the input is transformed into an output from a node or nodes in a layer of the network. A neural network without an activation function is essentially just a linear regression model. 
+  - Activation function also helps to normalize the output of any input in the range between 1 to -1 or 0 to 1. The choice of activation function in the hidden layer will control how well the network model learns the training dataset. The choice of activation function in the output layer will define the type of predictions the model can make.
+              Types of activation function:
+              1. Binary Step Function
+              2. Linear Activation Function
+              3. Non - linear Activation Function
+              
+  - **Binary Step Function:** A binary step function is generally used in the Perceptron linear classifier. It thresholds the input values to 1 and 0, if they are greater or less than zero, respectively.
+  - **Linear Activation Function:** It is a simple straight line activation function where our function is directly proportional to the weighted sum of neurons or input.
+  - ** Non - linear Activation Function:** Modern neural network models use non-linear activation functions. They allow the model to create complex mappings between the network’s inputs and outputs, such as images, video, audio, and data sets that are non-linear or have high dimensionality.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/27_act_function.gif)
+
+
+**Day28 of 66DaysOfData!**
+
+  **💡 Sigmoid Activation Function:**
+  - Sigmoid Activation function is very simple which takes a real value as input and gives probability that ‘s always between 0 or 1. The sigmoid is a non-linear function, continuously differentiable, monotonic, and has a fixed output range. Big disadvantage of the function is that it gives rise to a problem of 'vanishing gradients' because it's output isn’t zero centered. Also it takes very high computational time in hidden layer of neural network.
+  
+  **💡 Tanh or Hyperbolic tangent::** 
+  - Tanh help to solve non zero centered problem of sigmoid function. Tanh squashes a real-valued number to the range [-1, 1]. It’s non-linear too. It give us almost same as sigmoid's derivative function where it solve sigmoid's drawback but it still can't remove the vanishing gradient problem completely.
+  
+  **💡ReLU Activation Function:**
+  - This is most popular activation function which is used in hidden layer of NN. The formula is deceptively simple: 𝑚𝑎𝑥(0,𝑧)max(0,z). Despite its name and appearance, it's not linear and provides the same benefits as sigmoid but with better performance. It’s main advantage is that it avoids and rectifies vanishing gradient problem and less computationally expensive than tanh and sigmoid.
+  
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/28_activation_function.gif)
