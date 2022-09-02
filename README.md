@@ -366,6 +366,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   **💡 Activation Function:**
   - An activation function in a neural network defines how the weighted sum of the input is transformed into an output from a node or nodes in a layer of the network. A neural network without an activation function is essentially just a linear regression model. 
   - Activation function also helps to normalize the output of any input in the range between 1 to -1 or 0 to 1. The choice of activation function in the hidden layer will control how well the network model learns the training dataset. The choice of activation function in the output layer will define the type of predictions the model can make.
+   
               Types of activation function:
               1. Binary Step Function
               2. Linear Activation Function
@@ -373,10 +374,9 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
               
   - **Binary Step Function:** A binary step function is generally used in the Perceptron linear classifier. It thresholds the input values to 1 and 0, if they are greater or less than zero, respectively.
   - **Linear Activation Function:** It is a simple straight line activation function where our function is directly proportional to the weighted sum of neurons or input.
-  - ** Non - linear Activation Function:** Modern neural network models use non-linear activation functions. They allow the model to create complex mappings between the network’s inputs and outputs, such as images, video, audio, and data sets that are non-linear or have high dimensionality.
+  - **Non - linear Activation Function:** Modern neural network models use non-linear activation functions. They allow the model to create complex mappings between the network’s inputs and outputs, such as images, video, audio, and data sets that are non-linear or have high dimensionality.
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/27_act_function.gif)
-
 
 **Day28 of 66DaysOfData!**
 
@@ -388,5 +388,5 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   
   **💡ReLU Activation Function:**
   - This is most popular activation function which is used in hidden layer of NN. The formula is deceptively simple: 𝑚𝑎𝑥(0,𝑧)max(0,z). Despite its name and appearance, it's not linear and provides the same benefits as sigmoid but with better performance. It’s main advantage is that it avoids and rectifies vanishing gradient problem and less computationally expensive than tanh and sigmoid.
-  
+
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/28_activation_function.gif)
