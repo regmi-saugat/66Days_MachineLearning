@@ -390,3 +390,12 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - This is most popular activation function which is used in hidden layer of NN. The formula is deceptively simple: 𝑚𝑎𝑥(0,𝑧)max(0,z). Despite its name and appearance, it's not linear and provides the same benefits as sigmoid but with better performance. It’s main advantage is that it avoids and rectifies vanishing gradient problem and less computationally expensive than tanh and sigmoid.
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/28_activation_function.gif)
+
+
+**Day29 of 66DaysOfData!**
+
+  **💡 Leaky ReLU Function:**
+  - For activations in the region (x<0) of ReLU, gradient will be 0 because of which the weights will not get adjusted during descent. That means, those neurons which go into that state will stop responding to variations in error/ input (simply because gradient is 0, nothing changes). This is called the dying ReLu problem.
+  - Leaky ReLU function is an improved version of the ReLU activation function. It has a small slope for negative values instead of a flat slope, y = max(0.01x, x). By making this small modification, the gradient comes out to be a non zero value. Hence, there would no longer encounter dead neurons in that region.
+  
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/29_Leaky%20ReLU.png)
