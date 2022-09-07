@@ -399,3 +399,21 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - Leaky ReLU function is an improved version of the ReLU activation function. It has a small slope for negative values instead of a flat slope, y = max(0.01x, x). By making this small modification, the gradient comes out to be a non zero value. Hence, there would no longer encounter dead neurons in that region.
   
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/29_Leaky%20ReLU.png)
+
+**Day30 of 66DaysOfData!**
+
+  **💡 Weight Initialization:**
+  - Weight initialization plays an important role in improving the training process of deep learning methods. The goal of weight initialization is to prevent layer activation outputs from exploding or vanishing during the training of the DL technique. Training the network without a useful weight initialization can lead to a very slow convergence or an inability to converge.
+  
+              Some of the weights initializing techniques which should be avoided:
+              1. Zero Initialization 
+              2. Initialization with non zero constant value
+              3. Random Initialization
+              
+  - The problem with using this method is that it cause exploding and vanishing gradient problem. Therefore, it is rarely used as a neural network weight initializer. 
+  - **Here are some heuristics for weight initialization:**
+    - **1. Xavier / Glorot Initialization:** Xavier proposed a more straightforward method, where the weights such as the variance of the activations are the same across every layer. This will prevent the gradient from exploding or vanishing problem.
+  
+    - **2. He Initialization:** This initialization preserves the non-linearity of activation functions such as ReLU activations. Using the He method, we can reduce or magnify the magnitudes of inputs exponentially and it also solves dying neuron problems.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/30_weight_init.gif)
