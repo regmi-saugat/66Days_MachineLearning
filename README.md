@@ -417,3 +417,18 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
     - **2. He Initialization:** This initialization preserves the non-linearity of activation functions such as ReLU activations. Using the He method, we can reduce or magnify the magnitudes of inputs exponentially and it also solves dying neuron problems.
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/30_weight_init.gif)
+
+**Day31 of 66DaysOfData!**
+
+  **💡 Batch Normalization:**
+  - It consists of adding an operation in the model just before or after the activation function of each hidden layer, simply zero-centering and normalizing each input, then scaling and shifting the result using two new parameter vectors per layer:one for scaling, the other for shifting.
+  - This operation lets the model learn the optimal scale and mean of each of the layer’s inputs. In many cases, if you add a BN layer as the very first layer of your neural network, you do not need to standardize your training set:the BN layer will do it for you.
+  - In order to zero-center and normalize the inputs, the algorithm needs to estimate each input’s mean and standard deviation. It does so by evaluating the mean and standard deviation of each input over the current mini-batch.
+  
+              Some pros of using Batch Normalization:
+              1. Networks train faster, converge more quickly & give better results overall.
+              2. It allows higher learning rates. Gradient descent usually requires small learning rates for the network to converge.
+              3. Makes weights easier to initialize
+              4. It solves the problem of internal covariate shift. Through this, we ensure that the input for every layer is distributed around the same mean and standard deviation. 
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/31_batch_normalization.png)
