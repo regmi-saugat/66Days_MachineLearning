@@ -438,6 +438,6 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   **💡 Momentum Optimization:**
   - Momentum Optimizer in Deep Learning is a technique that reduces the time taken to train a model. 
 	- The path of learning in mini-batch gradient descent is zig-zag, and not straight. Thus, some time gets wasted in moving in a zig-zag direction. Momentum Optimizer in Deep Learning smooths out the zig-zag path and makes it much straighter, thus reducing the time taken to train the model. 
-  - Momentum Optimizer uses Exponentially Weighted Moving Average, which averages out the vertical movement and the net movement is mostly in the horizontal direction. Thus zig-zag path becomes straighter.![image](https://user-images.githubusercontent.com/91824143/190901353-6c1f8bb4-d293-4d5c-aa81-0af3d0ccc83e.png)
+  - Momentum Optimizer uses Exponentially Weighted Moving Average, which averages out the vertical movement and the net movement is mostly in the horizontal direction. Thus zig-zag path becomes straighter.
   - Momentum optimization cares a great deal about what previous gradients were: at each iteration, it subtracts the local gradient from the momentum vector m (multiplied by the learning rate η), and it updates the weights by simply adding this momentum vector.
-![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/31_batch_normalization.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/31-momentum-optimization.gif)
