@@ -437,7 +437,17 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 
   **💡 Momentum Optimization:**
   - Momentum Optimizer in Deep Learning is a technique that reduces the time taken to train a model. 
-	- The path of learning in mini-batch gradient descent is zig-zag, and not straight. Thus, some time gets wasted in moving in a zig-zag direction. Momentum Optimizer in Deep Learning smooths out the zig-zag path and makes it much straighter, thus reducing the time taken to train the model. 
+  - The path of learning in mini-batch gradient descent is zig-zag, and not straight. Thus, some time gets wasted in moving in a zig-zag direction. Momentum Optimizer in Deep Learning smooths out the zig-zag path and makes it much straighter, thus reducing the time taken to train the model. 
   - Momentum Optimizer uses Exponentially Weighted Moving Average, which averages out the vertical movement and the net movement is mostly in the horizontal direction. Thus zig-zag path becomes straighter.
   - Momentum optimization cares a great deal about what previous gradients were: at each iteration, it subtracts the local gradient from the momentum vector m (multiplied by the learning rate η), and it updates the weights by simply adding this momentum vector.
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/31-momentum-optimization.gif)
+
+**Day33 of 66DaysOfData!**
+
+  **💡 Nesterov Accelerated Gradient:**
+  - The idea of Nesterov Momentum optimization, or Nesterov Accelerated Gradient (NAG), is to measure the gradient of the cost function not at the local position but slightly ahead in the direction of the momentum.
+  - The acceleration of momentum can overshoot the minima at the bottom of basins or valleys. Nesterov momentum is an extension of momentum that involves calculating the decaying moving average of the gradients of projected positions in the search space rather than the actual positions themselves.
+  - This has the effect of harnessing the accelerating benefits of momentum whilst allowing the search to slow down when approaching the optima and reduce the likelihood of missing or overshooting it.
+- NAG will almost always speed up training compared to regular Momentum optimization. To use it, simply set nesterov=True when creating the SGD optimizer.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/33_NAG.png)
