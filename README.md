@@ -451,3 +451,13 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 - NAG will almost always speed up training compared to regular Momentum optimization. To use it, simply set nesterov=True when creating the SGD optimizer.
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/33_NAG.png)
+
+**Day34 of 66DaysOfData!**
+
+  **💡AdaGrad Optimizer:**
+  - Adagrad is an algorithm for gradient-based optimization that adapts the learning rate to the parameters, performing smaller updates (i.e. low learning rates) for parameters associated with frequently occurring features, and larger updates (i.e. high learning rates) for parameters associated with infrequent features.
+  - This algorithm performs best for sparse data because it decreases the learning rate faster for frequent parameters, and slower
+for parameters infrequent parameter. 
+- The weakness of AdaGrad is an aggressive monotonic growth of the denominator as squared gradients get accumulated. After a certain number of iterations the learning rate becomes infinitesimally small, at which point the algorithm essentially stops making steps in the direction of the minimum.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/34_adagrad.png)
