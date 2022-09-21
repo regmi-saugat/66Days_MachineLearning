@@ -461,3 +461,13 @@ for parameters infrequent parameter.
 - The weakness of AdaGrad is an aggressive monotonic growth of the denominator as squared gradients get accumulated. After a certain number of iterations the learning rate becomes infinitesimally small, at which point the algorithm essentially stops making steps in the direction of the minimum.
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/34_adagrad.png)
+
+
+**Day35 of 66DaysOfData!**
+
+  **💡RMS Prop:**
+    - AdaGrad got stuck when it was close to convergence, it was no longer able to move in the vertical (b) direction because of the decayed learning rate. RMSProp overcomes this problem by being less aggressive on the decay.
+  - Root Mean Squared Propagation, or RMSProp, is an extension of gradient descent and the AdaGrad version of gradient descent that uses a decaying average of partial gradients in the adaptation of the step size for each parameter.
+  - The hyperparameter β is known as the decay rate which is used to control the focus of the adaptive learning rate on more recent gradients. In almost all cases RMSProp will outperform AdaGrad & as a result this RMSProp was preferred optimization algorithm until the Adam optimization algorithm was introduced.
+  
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/35_rmsprop.png)
