@@ -466,8 +466,14 @@ for parameters infrequent parameter.
 **Day35 of 66DaysOfData!**
 
   **💡RMS Prop:**
-    - AdaGrad got stuck when it was close to convergence, it was no longer able to move in the vertical (b) direction because of the decayed learning rate. RMSProp overcomes this problem by being less aggressive on the decay.
+  - AdaGrad got stuck when it was close to convergence, it was no longer able to move in the vertical (b) direction because of the decayed learning rate. RMSProp overcomes this problem by being less aggressive on the decay.
   - Root Mean Squared Propagation, or RMSProp, is an extension of gradient descent and the AdaGrad version of gradient descent that uses a decaying average of partial gradients in the adaptation of the step size for each parameter.
   - The hyperparameter β is known as the decay rate which is used to control the focus of the adaptive learning rate on more recent gradients. In almost all cases RMSProp will outperform AdaGrad & as a result this RMSProp was preferred optimization algorithm until the Adam optimization algorithm was introduced.
   
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/35_rmsprop.png)
+
+**Day35 of 66DaysOfData!**
+
+  **💡Adam Optimization:**
+  - Adam which stands for Adaptive Moment Estimation combines the ideas of Momentum Optimization and RMSProp where Momentum Optimization keeps track of an exponentially decaying average of past gradients and RMSProp keeps track of an exponentially decaying average of past squared gradients. Instead of adapting the parameter learning rates based on the average first moment (the mean) as in RMSProp, Adam also makes use of the average of the second moments of the gradients (the uncentered variance). Here, I have presented the Implementation of Adam Optimizer using Python in the Snapshot. I hope you will also spend time leaerning the Topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/36_adamoptimizer.png)
