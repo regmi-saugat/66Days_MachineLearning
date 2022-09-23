@@ -472,8 +472,26 @@ for parameters infrequent parameter.
   
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/35_rmsprop.png)
 
-**Day35 of 66DaysOfData!**
+**Day36 of 66DaysOfData!**
 
   **💡Adam Optimization:**
   - Adam which stands for Adaptive Moment Estimation combines the ideas of Momentum Optimization and RMSProp where Momentum Optimization keeps track of an exponentially decaying average of past gradients and RMSProp keeps track of an exponentially decaying average of past squared gradients. Instead of adapting the parameter learning rates based on the average first moment (the mean) as in RMSProp, Adam also makes use of the average of the second moments of the gradients (the uncentered variance). Here, I have presented the Implementation of Adam Optimizer using Python in the Snapshot. I hope you will also spend time leaerning the Topics. Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/36_adamoptimizer.png)
+
+
+**Day37 of 66DaysOfData!**
+
+  **💡Convolution Neural Network:**
+  - Our brain processes things in a pictorial fashion. It tries to look for features and identify or classify objects in our surroundings. Since, our aim with neural networks is to mimic the human brain, a convolutional neural network (CNN) is mechanised such that it looks for features in an object.
+  - CNN is an neural network which extracts or identifies a feature in a particular image. This forms one of the
+most fundamental operations in Machine Learning and is widely used as a base model in majority of Neural Networks like GoogleNet, VGG19 and
+others for various tasks such as Object Detection, Image Classification and others.
+
+              CNN has the following five basic components:
+              1.Convolution : to detect features in an image
+              2. ReLU : to make the image smooth and make boundaries distinct
+              3. Pooling : to help fix distored images
+              4. Flattening : to turn the image into a suitable representation
+              5. Full connection : to process the data in a neural network
+              
+  - A CNN works in pretty much the same way an ANN works but since we are dealing with images, a CNN has more layers to it than an ANN. In an ANN, the input is a vector, however in a CNN, the input is a multi-channelled image.
