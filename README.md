@@ -495,3 +495,11 @@ others for various tasks such as Object Detection, Image Classification and othe
               5. Full connection : to process the data in a neural network
               
   - A CNN works in pretty much the same way an ANN works but since we are dealing with images, a CNN has more layers to it than an ANN. In an ANN, the input is a vector, however in a CNN, the input is a multi-channelled image.
+
+**Day38 of 66DaysOfData!**
+
+  **💡Convolution Layer:**
+  - The most important building block of CNN is the Convolutional Layer. Neurons in the first Convolutional Layer are not connected to every single pixel in the Input Image but only to pixels in their respective fields. Similarly, each Neurons in second CL is connected only to neurons located within a small rectangle in the first layer. 
+  - This architecture allows the network to concentrate on small low-level features in the first hidden layer, then assemble them into larger higher-level features in the next hidden layer, and so on. 
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/38_CNN%20layer.png)
