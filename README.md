@@ -503,3 +503,8 @@ others for various tasks such as Object Detection, Image Classification and othe
   - This architecture allows the network to concentrate on small low-level features in the first hidden layer, then assemble them into larger higher-level features in the next hidden layer, and so on. 
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/38_CNN%20layer.png)
+
+**Day39 of 66DaysOfData!**
+  -  Convolutional architecture allows the network to concentrate on small low-level features in the first hidden layer, then assemble them into larger higher-level features in the next hidden layer, and so on. Today I read and implemented about Convolutional Neural Networks, Convolutional Layer, Zero Padding, Filters, Stacking Multiple Feature Maps, Padding, Pooling Layer, Invariance, Convolutional Neural Network Architectures and revised the previous concepts from the **Book Hands On Machine Learning with Scikit Learn, Keras and TensorFlow.** Here, I have presented the implementation of Convolutional Neural Network Architecture using Fashion MNSIT dataset in the Snapshot. I hope you will gain some insights and hope you will also spend some time reading the Topics. Excited for the days ahead !
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/39_CNN%20layer%20for%20Fashion%20MNIST%20dataset.png)
