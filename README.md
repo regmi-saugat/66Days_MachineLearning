@@ -508,3 +508,11 @@ others for various tasks such as Object Detection, Image Classification and othe
   -  Convolutional architecture allows the network to concentrate on small low-level features in the first hidden layer, then assemble them into larger higher-level features in the next hidden layer, and so on. Today I read and implemented about Convolutional Neural Networks, Convolutional Layer, Zero Padding, Filters, Stacking Multiple Feature Maps, Padding, Pooling Layer, Invariance, Convolutional Neural Network Architectures and revised the previous concepts from the **Book Hands On Machine Learning with Scikit Learn, Keras and TensorFlow.** Here, I have presented the implementation of Convolutional Neural Network Architecture using Fashion MNSIT dataset in the Snapshot. I hope you will gain some insights and hope you will also spend some time reading the Topics. Excited for the days ahead !
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/39_CNN%20layer%20for%20Fashion%20MNIST%20dataset.png)
+
+**Day40 of 66DaysOfData!**
+
+  **💡Residual Network (ResNet):**
+  - Residual Networks was proposed by He et al. in 2015 to solve the image classification problem. In ResNets, the information from the initial layers is passed to deeper layers by matrix addition. This operation doesn’t have any additional parameters as the output from the previous layer is added to the layer ahead.
+  - Deep residual nets make use of residual blocks to improve the accuracy of the models. The concept of “skip connections,” which lies at the core of the residual blocks, is the strength of this type of neural network. Here, I have presented the implementation of ResNet 34 CNN using Keras in the Snapshot. I hope you will gain some insights and spend some time learning the topics. Excited about the days ahead !
+ 
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/40_resnet.png)
