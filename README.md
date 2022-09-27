@@ -516,3 +516,13 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Deep residual nets make use of residual blocks to improve the accuracy of the models. The concept of “skip connections,” which lies at the core of the residual blocks, is the strength of this type of neural network. Here, I have presented the implementation of ResNet 34 CNN using Keras in the Snapshot. I hope you will gain some insights and spend some time learning the topics. Excited about the days ahead !
  
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/40_resnet.png)
+
+**Day41 of 66DaysOfData!**
+
+  **💡Xception:**
+  - Xception stands for Extreme Inception is a deep convolutional neural network architecture that involves Depthwise Separable Convolutions introduced Francois Chollet who works at Google(also creator of Keras).
+  - It merges the ideas of GoogLeNet and ResNet Architecture but it replaces the Inception modules with a special layer called Depthwise Separable Convolution.
+  - Depthwise Separable Convolutions are alternatives to classical convolutions that are supposed to be much more efficient in terms of computation time.
+  - The data first goes through the entry flow, then after than it. goes through the middle flow (repeating itself 8 times in this middle flow), and finally through the exit flow.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/41_xception%20model.png)
