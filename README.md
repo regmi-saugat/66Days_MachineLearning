@@ -451,3 +451,78 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
 - NAG will almost always speed up training compared to regular Momentum optimization. To use it, simply set nesterov=True when creating the SGD optimizer.
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/33_NAG.png)
+
+**Day34 of 66DaysOfData!**
+
+  **💡AdaGrad Optimizer:**
+  - Adagrad is an algorithm for gradient-based optimization that adapts the learning rate to the parameters, performing smaller updates (i.e. low learning rates) for parameters associated with frequently occurring features, and larger updates (i.e. high learning rates) for parameters associated with infrequent features.
+  - This algorithm performs best for sparse data because it decreases the learning rate faster for frequent parameters, and slower
+for parameters infrequent parameter. 
+- The weakness of AdaGrad is an aggressive monotonic growth of the denominator as squared gradients get accumulated. After a certain number of iterations the learning rate becomes infinitesimally small, at which point the algorithm essentially stops making steps in the direction of the minimum.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/34_adagrad.png)
+
+
+**Day35 of 66DaysOfData!**
+
+  **💡RMS Prop:**
+  - AdaGrad got stuck when it was close to convergence, it was no longer able to move in the vertical (b) direction because of the decayed learning rate. RMSProp overcomes this problem by being less aggressive on the decay.
+  - Root Mean Squared Propagation, or RMSProp, is an extension of gradient descent and the AdaGrad version of gradient descent that uses a decaying average of partial gradients in the adaptation of the step size for each parameter.
+  - The hyperparameter β is known as the decay rate which is used to control the focus of the adaptive learning rate on more recent gradients. In almost all cases RMSProp will outperform AdaGrad & as a result this RMSProp was preferred optimization algorithm until the Adam optimization algorithm was introduced.
+  
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/35_rmsprop.png)
+
+**Day36 of 66DaysOfData!**
+
+  **💡Adam Optimization:**
+  - Adam which stands for Adaptive Moment Estimation combines the ideas of Momentum Optimization and RMSProp where Momentum Optimization keeps track of an exponentially decaying average of past gradients and RMSProp keeps track of an exponentially decaying average of past squared gradients. Instead of adapting the parameter learning rates based on the average first moment (the mean) as in RMSProp, Adam also makes use of the average of the second moments of the gradients (the uncentered variance). Here, I have presented the Implementation of Adam Optimizer using Python in the Snapshot. I hope you will also spend time leaerning the Topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/36_adamoptimizer.png)
+
+
+**Day37 of 66DaysOfData!**
+
+  **💡Convolution Neural Network:**
+  - Our brain processes things in a pictorial fashion. It tries to look for features and identify or classify objects in our surroundings. Since, our aim with neural networks is to mimic the human brain, a convolutional neural network (CNN) is mechanised such that it looks for features in an object.
+  - CNN is an neural network which extracts or identifies a feature in a particular image. This forms one of the
+most fundamental operations in Machine Learning and is widely used as a base model in majority of Neural Networks like GoogleNet, VGG19 and
+others for various tasks such as Object Detection, Image Classification and others.
+
+              CNN has the following five basic components:
+              1.Convolution : to detect features in an image
+              2. ReLU : to make the image smooth and make boundaries distinct
+              3. Pooling : to help fix distored images
+              4. Flattening : to turn the image into a suitable representation
+              5. Full connection : to process the data in a neural network
+              
+  - A CNN works in pretty much the same way an ANN works but since we are dealing with images, a CNN has more layers to it than an ANN. In an ANN, the input is a vector, however in a CNN, the input is a multi-channelled image.
+
+**Day38 of 66DaysOfData!**
+
+  **💡Convolution Layer:**
+  - The most important building block of CNN is the Convolutional Layer. Neurons in the first Convolutional Layer are not connected to every single pixel in the Input Image but only to pixels in their respective fields. Similarly, each Neurons in second CL is connected only to neurons located within a small rectangle in the first layer. 
+  - This architecture allows the network to concentrate on small low-level features in the first hidden layer, then assemble them into larger higher-level features in the next hidden layer, and so on. 
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/38_CNN%20layer.png)
+
+**Day39 of 66DaysOfData!**
+  -  Convolutional architecture allows the network to concentrate on small low-level features in the first hidden layer, then assemble them into larger higher-level features in the next hidden layer, and so on. Today I read and implemented about Convolutional Neural Networks, Convolutional Layer, Zero Padding, Filters, Stacking Multiple Feature Maps, Padding, Pooling Layer, Invariance, Convolutional Neural Network Architectures and revised the previous concepts from the **Book Hands On Machine Learning with Scikit Learn, Keras and TensorFlow.** Here, I have presented the implementation of Convolutional Neural Network Architecture using Fashion MNSIT dataset in the Snapshot. I hope you will gain some insights and hope you will also spend some time reading the Topics. Excited for the days ahead !
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/39_CNN%20layer%20for%20Fashion%20MNIST%20dataset.png)
+
+**Day40 of 66DaysOfData!**
+
+  **💡Residual Network (ResNet):**
+  - Residual Networks was proposed by He et al. in 2015 to solve the image classification problem. In ResNets, the information from the initial layers is passed to deeper layers by matrix addition. This operation doesn’t have any additional parameters as the output from the previous layer is added to the layer ahead.
+  - Deep residual nets make use of residual blocks to improve the accuracy of the models. The concept of “skip connections,” which lies at the core of the residual blocks, is the strength of this type of neural network. Here, I have presented the implementation of ResNet 34 CNN using Keras in the Snapshot. I hope you will gain some insights and spend some time learning the topics. Excited about the days ahead !
+ 
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/40_resnet.png)
+
+**Day41 of 66DaysOfData!**
+
+  **💡Xception:**
+  - Xception stands for Extreme Inception is a deep convolutional neural network architecture that involves Depthwise Separable Convolutions introduced Francois Chollet who works at Google(also creator of Keras).
+  - It merges the ideas of GoogLeNet and ResNet Architecture but it replaces the Inception modules with a special layer called Depthwise Separable Convolution.
+  - Depthwise Separable Convolutions are alternatives to classical convolutions that are supposed to be much more efficient in terms of computation time.
+  - The data first goes through the entry flow, then after than it. goes through the middle flow (repeating itself 8 times in this middle flow), and finally through the exit flow.
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/41_xception%20model.png)
