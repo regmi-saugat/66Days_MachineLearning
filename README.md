@@ -440,7 +440,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - The path of learning in mini-batch gradient descent is zig-zag, and not straight. Thus, some time gets wasted in moving in a zig-zag direction. Momentum Optimizer in Deep Learning smooths out the zig-zag path and makes it much straighter, thus reducing the time taken to train the model. 
   - Momentum Optimizer uses Exponentially Weighted Moving Average, which averages out the vertical movement and the net movement is mostly in the horizontal direction. Thus zig-zag path becomes straighter.
   - Momentum optimization cares a great deal about what previous gradients were: at each iteration, it subtracts the local gradient from the momentum vector m (multiplied by the learning rate η), and it updates the weights by simply adding this momentum vector.
-![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/31-momentum-optimization.gif)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/32-momentum-optimization.gif)
 
 **Day33 of 66DaysOfData!**
 
@@ -461,7 +461,7 @@ for parameters infrequent parameter.
 - The weakness of AdaGrad is an aggressive monotonic growth of the denominator as squared gradients get accumulated. After a certain number of iterations the learning rate becomes infinitesimally small, at which point the algorithm essentially stops making steps in the direction of the minimum.
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/34_adagrad.png)
-
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/34(b)%20adagrad.png)
 
 **Day35 of 66DaysOfData!**
 
@@ -526,3 +526,14 @@ others for various tasks such as Object Detection, Image Classification and othe
   - The data first goes through the entry flow, then after than it. goes through the middle flow (repeating itself 8 times in this middle flow), and finally through the exit flow.
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/41_xception%20model.png)
+
+
+**Day42 of 66DaysOfData!**
+
+  **💡Semantic Segmentation:**
+  - Semantic segmentation, or image segmentation, is the task of clustering parts of an image together which belong to the same object class. It is a form of pixel-level prediction because each pixel in an image is classified according to a category. 
+  - The task of Semantic Segmentation can be referred to as classifying a certain class of image and separating it from the rest of the image classes by overlaying it with a segmentation mask.
+  - Semantic Segmentation finds applications in fields like autonomous driving, medical image analysis, aerial image processing, and more. Today I read about Semantic Segmentation, Classification and Localization, Fully  Mean Average Precision(mAP), Transpose Convolutions, Convolutional Networks or FCNs, Data Augmentation, CNN, and some other topics. Here, I have presented the implementation of Classification and Localization, Transpose Convolutions in the Snapshots. I hope you will gain some insights and work on the same. Excited about the days ahead !
+  
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/42_semantic%20segmentation_a.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/42_semantic%20segmentation_b.png)
