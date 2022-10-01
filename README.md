@@ -545,6 +545,7 @@ others for various tasks such as Object Detection, Image Classification and othe
   - A recurrent neural network is a type of artificial neural network which uses sequential data or time-series data. 
   - It is commonly used for ordinal or temporal problems, such as language translation, natural language processing (NLP), speech recognition, and image captioning.
   - The output of RNN depends on the prior elements within the sequence unlike traditional deep neural networks assume that inputs and outputs are independent of each other.
+
                The different types of RNN are:
               • One to one
               • One to many
