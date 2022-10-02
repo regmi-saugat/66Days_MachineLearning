@@ -552,3 +552,8 @@ others for various tasks such as Object Detection, Image Classification and othe
               • Many to one
               • Many to many
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/43_RNN.png)
+
+**Day44 of 66DaysOfData!**
+  - Deep learning is a subset of machine learning, where artificial neural networks—algorithms modeled to work like the human brain learn from large amounts of data. It attempts to draw similar conclusions as humans would by continually analyzing data with a given logical structure. To achieve this, deep learning uses a multi-layered structure of algorithms called neural networks. Today, I have started reading the Book **Deep Learning with PyTorch**. I learned about PyTorch, Deep Learning Introduction and Revolution, Tensors and Arrays, Deep Learning Competitive Landscape, pretrained neural network that recognizes the subject of an Image, ImageNet, AlexNet and ResNet.. Here, I have presented the implementation of obtaining Pretrained Neural Networks for Image Recognition using PyTorch in the Snapshot. I hope you will also spend some time learning the topics.  Excited about the days ahead !
+  
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/44_pretrained_model.png)
