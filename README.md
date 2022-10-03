@@ -557,3 +557,13 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Deep learning is a subset of machine learning, where artificial neural networks—algorithms modeled to work like the human brain learn from large amounts of data. It attempts to draw similar conclusions as humans would by continually analyzing data with a given logical structure. To achieve this, deep learning uses a multi-layered structure of algorithms called neural networks. Today, I have started reading the Book **Deep Learning with PyTorch**. I learned about PyTorch, Deep Learning Introduction and Revolution, Tensors and Arrays, Deep Learning Competitive Landscape, pretrained neural network that recognizes the subject of an Image, ImageNet, AlexNet and ResNet.. Here, I have presented the implementation of obtaining Pretrained Neural Networks for Image Recognition using PyTorch in the Snapshot. I hope you will also spend some time learning the topics.  Excited about the days ahead !
   
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/44_pretrained_model.png)
+
+
+**Day45 of 66DaysOfData!**
+
+  **💡The GAN Game:**
+  - GAN stands for generative adversarial network, where generative means something is being created, adversarial means the two networks are competing to outsmart the other, and well, network is pretty obvious.
+  - The generator network takes the role of the painter in our scenario, tasked with producing realistic looking images, starting from an arbitrary input. The discriminator network is the amoral art inspector, needing to tell whether a given image was fabricated by the generator or belongs in a set of real images. This two network design is atypical for most deep learning architectures but, when used to implement a GAN game, can lead to incredible results.
+  - A CycleGAN can turn images of one domain into images of another domain (and back), without the need for us to explicitly provide matching pairs in the training set.
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/45_cycleGAN_a.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/45_cycleGAN_b.png)
