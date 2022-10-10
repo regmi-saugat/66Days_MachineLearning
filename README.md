@@ -567,3 +567,12 @@ others for various tasks such as Object Detection, Image Classification and othe
   - A CycleGAN can turn images of one domain into images of another domain (and back), without the need for us to explicitly provide matching pairs in the training set.
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/45_cycleGAN_a.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/45_cycleGAN_b.png)
+
+
+**Day46 of 66DaysOfData!**
+
+  **💡Tensors and Multi Dimensional Arrays:**
+  - A tensor is an array that is a data structure which stores a collection of numbers that are accessible individually using a index and that can be indexed with
+  multiple indices.
+  - It is a generalization of vectors and matrices and is easily understood as a multidimensional array. 
+  - It is a term and set of techniques known in machine learning in the training and operation of deep learning models that can be described in terms of tensors. Most machines cannot learn without having any data, And modern data is often multi-dimensional. Tensors can play an important role in ML by encoding multi-dimensional data.
