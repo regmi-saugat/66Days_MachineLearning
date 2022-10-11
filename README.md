@@ -576,3 +576,10 @@ others for various tasks such as Object Detection, Image Classification and othe
   multiple indices.
   - It is a generalization of vectors and matrices and is easily understood as a multidimensional array. 
   - It is a term and set of techniques known in machine learning in the training and operation of deep learning models that can be described in terms of tensors. Most machines cannot learn without having any data, And modern data is often multi-dimensional. Tensors can play an important role in ML by encoding multi-dimensional data.
+
+**Day47 of 66DaysOfData!**
+
+  **💡Encoding color channels:**
+  - An image is represented as a collection of scalars arranged in a regular grid with a height and a width (in pixels). We might have a single scalar per grid point (the pixel), which would be represented as a grayscale image; or multiple scalars per grid point, which would typically represent different colors.
+  - There are several ways to encode colors into numbers. The most common is RGB, where a color is defined by three numbers representing the intensity of red, green, and blue. Today, I learned about Serializing tensors, Tensors, Data Representation using Tensors, Working with Images, Adding Color Channels, Changing the Layout, Normalizing the Data. Here, I have presented the implementation of Working with Images like, adding color channels, loading image file, changing images layout, etc using PyTorch in the Snapshot.
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/47_working%20with%20images.png)
