@@ -581,5 +581,13 @@ others for various tasks such as Object Detection, Image Classification and othe
 
   **💡Encoding color channels:**
   - An image is represented as a collection of scalars arranged in a regular grid with a height and a width (in pixels). We might have a single scalar per grid point (the pixel), which would be represented as a grayscale image; or multiple scalars per grid point, which would typically represent different colors.
-  - There are several ways to encode colors into numbers. The most common is RGB, where a color is defined by three numbers representing the intensity of red, green, and blue. Today, I learned about Serializing tensors, Tensors, Data Representation using Tensors, Working with Images, Adding Color Channels, Changing the Layout, Normalizing the Data. Here, I have presented the implementation of Working with Images like, adding color channels, loading image file, changing images layout, etc using PyTorch in the Snapshot.
+  - There are several ways to encode colors into numbers. The most common is RGB, where a color is defined by three numbers representing the intensity of red, green, and blue. Today, I learned about Serializing tensors, Tensors, Data Representation using Tensors, Working with Images, Adding Color Channels, Changing the Layout, Normalizing the Data. Here, I have presented the implementation of Working with Images like, adding color channels, loading image file, changing images layout, etc using PyTorch in the Snapshot. I hope you will gain some insights and spend the time learning the topics. Excited about the days ahead !
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/47_working%20with%20images.png)
+
+
+**Day48 of 66DaysOfData!**
+
+  **💡Continuous, Ordinal, and Categorical Values:**
+  - Continuous values are strictly ordered, and a difference between various values has a strict meaning. Ordinal values has a strict ordering like continuous values but it has no fixed relationship between values. Categorical values have enumerations of possibilites assigned arbitrary numbers, they simply have distinct values to differentiate them.
+  - Today, I learned to represent tabular data, continuous, ordinal, and categorical values, representing scores, one-hot encoding, when to categorize the data, finding thresholds. Here, I have presented the implementation of Working with categorical, ordinal, and categorical data, One-hot encoding, to find the thresholds using PyTorch in the Snapshot. I hope you will gain some insights and spend the time learning the topics. Excited about the days ahead !
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/48_working_with_image.png)
