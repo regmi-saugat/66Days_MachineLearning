@@ -584,10 +584,18 @@ others for various tasks such as Object Detection, Image Classification and othe
   - There are several ways to encode colors into numbers. The most common is RGB, where a color is defined by three numbers representing the intensity of red, green, and blue. Today, I learned about Serializing tensors, Tensors, Data Representation using Tensors, Working with Images, Adding Color Channels, Changing the Layout, Normalizing the Data. Here, I have presented the implementation of Working with Images like, adding color channels, loading image file, changing images layout, etc using PyTorch in the Snapshot. I hope you will gain some insights and spend the time learning the topics. Excited about the days ahead !
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/47_working%20with%20images.png)
 
-
 **Day48 of 66DaysOfData!**
 
   **💡Continuous, Ordinal, and Categorical Values:**
   - Continuous values are strictly ordered, and a difference between various values has a strict meaning. Ordinal values has a strict ordering like continuous values but it has no fixed relationship between values. Categorical values have enumerations of possibilites assigned arbitrary numbers, they simply have distinct values to differentiate them.
   - Today, I learned to represent tabular data, continuous, ordinal, and categorical values, representing scores, one-hot encoding, when to categorize the data, finding thresholds. Here, I have presented the implementation of Working with categorical, ordinal, and categorical data, One-hot encoding, to find the thresholds using PyTorch in the Snapshot. I hope you will gain some insights and spend the time learning the topics. Excited about the days ahead !
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/48_working_with_image.png)
+
+**Day49 of 66DaysOfData!**
+
+  **💡Encoding:**
+  - Every written character is represented by a code, i.e. sequence of bits of appropriate length so that each character can be uniquely identified. Encoding is the process of applying a specific code, such as letters, symbols and numbers, to data for conversion into an equivalent cipher. The simplest such encoding is ASCII (American Standard Code for Information Interchange). ASCII encodes 128 characters using 128 integers.
+  - Today, I learned about about time series, adding time dimension in data, to shape data by time period, encoding the text into numbers, one-hot encoding. Here, I have presented the implementation of working with time series data, one-hot encoding, converting text into numbers, etc using PyTorch in the Snapshot. I hope you will gain some insights and spend the time learning the topics. Excited about the days ahead !
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/49_a_encoding.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/49_b_encoding.png)
