@@ -599,3 +599,13 @@ others for various tasks such as Object Detection, Image Classification and othe
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/49_a_encoding.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/49_b_encoding.png)
+
+**Day50 of 66DaysOfData!**
+
+  **💡Hyperparameter Tuning:**
+  - Hyperparameter Tuning refers to the training of model's parameters and hyperparameters control how the training goes. They are generally set manually. Model parameters are learned from data and hyper-parameters are tuned to get the best fit. Searching for the best hyper-parameter can be tedious.
+  - Today, I learned about mechanics of learning, loss function, broadcasting, optimizing the training Loop, overtraining, learning rate, hyperparameter tuning, Normalizing the Inputs, visualization or plotting the data, , Linear Model, gradient descent, backpropagation, PyTorch's Autograd. Here, I have presented the implementation of simple linear model, mechanics of learning, gradient function, training loop, gradient descent , visualization using PyTorch in the snapshot. I hope you will gain some insights and spend the time learning the topics. Excited about the days ahead!
+
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/50_a_hyperparameter_tuning.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/50_b_hyperparameter_tuning.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/50_c_hyperparameter_tuning.png)
