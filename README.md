@@ -618,4 +618,4 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Today, I learned about pytorch autograd,  to compute the gradient,  accumulating the grad function, optimizers, stochastic gradient descent, etc. Here, I have presented the implementation of working with simple linear model, gradient function, training loop, loss function, implementation of SGD in the snapshot. I hope you will gain some insights and spend the time learning the topics. Excited about the days ahead!
 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/51_a_optimizers.png)
-!{Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/51_b_optimizers.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/51_b_optimizers.png)
