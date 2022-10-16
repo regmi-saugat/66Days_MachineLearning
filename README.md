@@ -620,6 +620,10 @@ others for various tasks such as Object Detection, Image Classification and othe
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/51_a_optimizers.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/51_b_optimizers.png)
 
+**Day52 of 66DaysOfData!**
+
   **💡Optimizers:**
   - It is very important to tweak the weights of the model during the training process, to make our predictions as correct and optimized as possible so we use optimizers. Optimizers are methods used to minimize a loss function or to maximize the efficiency of production. They are just a mathematical functions which are dependent on model’s learnable parameters i.e Weights & Biases. There are several types of optimizers like, gradient descent, SGD, RMS-Prop, Ada-delta, Adam, etc.
   - Today, I learned about optimizers, SGD, splitting the sample, training, validation, overfitting, evaluating training loss, autograd nits, etc. Here, I have presented the implementation of SGD & Adam optimizer along with the training loop in the snapshot. I hope you will gain some insights and spend the time learning the topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/52_a_optimizers.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/52_b_optimizers.png)
