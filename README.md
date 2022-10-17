@@ -620,6 +620,7 @@ others for various tasks such as Object Detection, Image Classification and othe
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/51_a_optimizers.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/51_b_optimizers.png)
 
+
 **Day52 of 66DaysOfData!**
 
   **💡Optimizers:**
@@ -627,3 +628,11 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Today, I learned about optimizers, SGD, splitting the sample, training, validation, overfitting, evaluating training loss, autograd nits, etc. Here, I have presented the implementation of SGD & Adam optimizer along with the training loop in the snapshot. I hope you will gain some insights and spend the time learning the topics. Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/52_a_optimizers.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/52_b_optimizers.png)
+
+**Day53 of 66DaysOfData!**
+
+  **💡Activation Function:**
+  - In ANN, each neuron forms a weighted sum of its inputs and passes the resulting scalar value through a function referred to as an activation function. It performs a nonlinear transformation on the input to get better results on a complex neural network. The addition of activation function to neural network executes the non-linear transformation to input and make it capable to solve the several complex problems.
+  - Today, I learned about artificial neural network, weights, biases, activation function, error function, etc. Here, I have presented the implementation simple linear model, neural network, along with the training loop using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/53_a_activation_function.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/53_b_activation_function.png)
