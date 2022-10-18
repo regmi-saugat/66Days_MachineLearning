@@ -430,7 +430,7 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
               2. It allows higher learning rates. Gradient descent usually requires small learning rates for the network to converge.
               3. Makes weights easier to initialize
               4. It solves the problem of internal covariate shift. Through this, we ensure that the input for every layer is distributed around the same mean and standard deviation. 
-
+              
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/31_batch_normalization.png)
 
 **Day32 of 66DaysOfData!**
@@ -441,7 +441,6 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - Momentum Optimizer uses Exponentially Weighted Moving Average, which averages out the vertical movement and the net movement is mostly in the horizontal direction. Thus zig-zag path becomes straighter.
   - Momentum optimization cares a great deal about what previous gradients were: at each iteration, it subtracts the local gradient from the momentum vector m (multiplied by the learning rate η), and it updates the weights by simply adding this momentum vector.
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/32-momentum-optimization.gif)
-
 **Day33 of 66DaysOfData!**
 
   **💡 Nesterov Accelerated Gradient:**
@@ -449,7 +448,6 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - The acceleration of momentum can overshoot the minima at the bottom of basins or valleys. Nesterov momentum is an extension of momentum that involves calculating the decaying moving average of the gradients of projected positions in the search space rather than the actual positions themselves.
   - This has the effect of harnessing the accelerating benefits of momentum whilst allowing the search to slow down when approaching the optima and reduce the likelihood of missing or overshooting it.
 - NAG will almost always speed up training compared to regular Momentum optimization. To use it, simply set nesterov=True when creating the SGD optimizer.
-
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/33_NAG.png)
 
 **Day34 of 66DaysOfData!**
@@ -459,7 +457,6 @@ Gradient descent is an iterative optimization algorithm that is popular and it i
   - This algorithm performs best for sparse data because it decreases the learning rate faster for frequent parameters, and slower
 for parameters infrequent parameter. 
 - The weakness of AdaGrad is an aggressive monotonic growth of the denominator as squared gradients get accumulated. After a certain number of iterations the learning rate becomes infinitesimally small, at which point the algorithm essentially stops making steps in the direction of the minimum.
-
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/34_adagrad.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/34(b)%20adagrad.png)
 
@@ -469,7 +466,6 @@ for parameters infrequent parameter.
   - AdaGrad got stuck when it was close to convergence, it was no longer able to move in the vertical (b) direction because of the decayed learning rate. RMSProp overcomes this problem by being less aggressive on the decay.
   - Root Mean Squared Propagation, or RMSProp, is an extension of gradient descent and the AdaGrad version of gradient descent that uses a decaying average of partial gradients in the adaptation of the step size for each parameter.
   - The hyperparameter β is known as the decay rate which is used to control the focus of the adaptive learning rate on more recent gradients. In almost all cases RMSProp will outperform AdaGrad & as a result this RMSProp was preferred optimization algorithm until the Adam optimization algorithm was introduced.
-  
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/35_rmsprop.png)
 
 **Day36 of 66DaysOfData!**
@@ -501,12 +497,10 @@ others for various tasks such as Object Detection, Image Classification and othe
   **💡Convolution Layer:**
   - The most important building block of CNN is the Convolutional Layer. Neurons in the first Convolutional Layer are not connected to every single pixel in the Input Image but only to pixels in their respective fields. Similarly, each Neurons in second CL is connected only to neurons located within a small rectangle in the first layer. 
   - This architecture allows the network to concentrate on small low-level features in the first hidden layer, then assemble them into larger higher-level features in the next hidden layer, and so on. 
-
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/38_CNN%20layer.png)
 
 **Day39 of 66DaysOfData!**
   -  Convolutional architecture allows the network to concentrate on small low-level features in the first hidden layer, then assemble them into larger higher-level features in the next hidden layer, and so on. Today I read and implemented about Convolutional Neural Networks, Convolutional Layer, Zero Padding, Filters, Stacking Multiple Feature Maps, Padding, Pooling Layer, Invariance, Convolutional Neural Network Architectures and revised the previous concepts from the **Book Hands On Machine Learning with Scikit Learn, Keras and TensorFlow.** Here, I have presented the implementation of Convolutional Neural Network Architecture using Fashion MNSIT dataset in the Snapshot. I hope you will gain some insights and hope you will also spend some time reading the Topics. Excited for the days ahead !
-
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/39_CNN%20layer%20for%20Fashion%20MNIST%20dataset.png)
 
 **Day40 of 66DaysOfData!**
@@ -514,7 +508,6 @@ others for various tasks such as Object Detection, Image Classification and othe
   **💡Residual Network (ResNet):**
   - Residual Networks was proposed by He et al. in 2015 to solve the image classification problem. In ResNets, the information from the initial layers is passed to deeper layers by matrix addition. This operation doesn’t have any additional parameters as the output from the previous layer is added to the layer ahead.
   - Deep residual nets make use of residual blocks to improve the accuracy of the models. The concept of “skip connections,” which lies at the core of the residual blocks, is the strength of this type of neural network. Here, I have presented the implementation of ResNet 34 CNN using Keras in the Snapshot. I hope you will gain some insights and spend some time learning the topics. Excited about the days ahead !
- 
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/40_resnet.png)
 
 **Day41 of 66DaysOfData!**
@@ -524,7 +517,6 @@ others for various tasks such as Object Detection, Image Classification and othe
   - It merges the ideas of GoogLeNet and ResNet Architecture but it replaces the Inception modules with a special layer called Depthwise Separable Convolution.
   - Depthwise Separable Convolutions are alternatives to classical convolutions that are supposed to be much more efficient in terms of computation time.
   - The data first goes through the entry flow, then after than it. goes through the middle flow (repeating itself 8 times in this middle flow), and finally through the exit flow.
-
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/41_xception%20model.png)
 
 
@@ -534,7 +526,6 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Semantic segmentation, or image segmentation, is the task of clustering parts of an image together which belong to the same object class. It is a form of pixel-level prediction because each pixel in an image is classified according to a category. 
   - The task of Semantic Segmentation can be referred to as classifying a certain class of image and separating it from the rest of the image classes by overlaying it with a segmentation mask.
   - Semantic Segmentation finds applications in fields like autonomous driving, medical image analysis, aerial image processing, and more. Today I read about Semantic Segmentation, Classification and Localization, Fully  Mean Average Precision(mAP), Transpose Convolutions, Convolutional Networks or FCNs, Data Augmentation, CNN, and some other topics. Here, I have presented the implementation of Classification and Localization, Transpose Convolutions in the Snapshots. I hope you will gain some insights and work on the same. Excited about the days ahead !
-  
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/42_semantic%20segmentation_a.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/42_semantic%20segmentation_b.png)
 
@@ -554,8 +545,7 @@ others for various tasks such as Object Detection, Image Classification and othe
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/43_RNN.png)
 
 **Day44 of 66DaysOfData!**
-  - Deep learning is a subset of machine learning, where artificial neural networks—algorithms modeled to work like the human brain learn from large amounts of data. It attempts to draw similar conclusions as humans would by continually analyzing data with a given logical structure. To achieve this, deep learning uses a multi-layered structure of algorithms called neural networks. Today, I have started reading the Book **Deep Learning with PyTorch**. I learned about PyTorch, Deep Learning Introduction and Revolution, Tensors and Arrays, Deep Learning Competitive Landscape, pretrained neural network that recognizes the subject of an Image, ImageNet, AlexNet and ResNet.. Here, I have presented the implementation of obtaining Pretrained Neural Networks for Image Recognition using PyTorch in the Snapshot. I hope you will also spend some time learning the topics.  Excited about the days ahead !
-  
+  - Deep learning is a subset of machine learning, where artificial neural networks—algorithms modeled to work like the human brain learn from large amounts of data. It attempts to draw similar conclusions as humans would by continually analyzing data with a given logical structure. To achieve this, deep learning uses a multi-layered structure of algorithms called neural networks. Today, I have started reading the Book **Deep Learning with PyTorch**. I learned about PyTorch, Deep Learning Introduction and Revolution, Tensors and Arrays, Deep Learning Competitive Landscape, pretrained neural network that recognizes the subject of an Image, ImageNet, AlexNet and ResNet.. Here, I have presented the implementation of obtaining Pretrained Neural Networks for Image Recognition using PyTorch in the Snapshot. I hope you will also spend some time learning the topics.  Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/44_pretrained_model.png)
 
 
@@ -596,7 +586,6 @@ others for various tasks such as Object Detection, Image Classification and othe
   **💡Encoding:**
   - Every written character is represented by a code, i.e. sequence of bits of appropriate length so that each character can be uniquely identified. Encoding is the process of applying a specific code, such as letters, symbols and numbers, to data for conversion into an equivalent cipher. The simplest such encoding is ASCII (American Standard Code for Information Interchange). ASCII encodes 128 characters using 128 integers.
   - Today, I learned about about time series, adding time dimension in data, to shape data by time period, encoding the text into numbers, one-hot encoding. Here, I have presented the implementation of working with time series data, one-hot encoding, converting text into numbers, etc using PyTorch in the Snapshot. I hope you will gain some insights and spend the time learning the topics. Excited about the days ahead !
-
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/49_a_encoding.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/49_b_encoding.png)
 
@@ -605,7 +594,6 @@ others for various tasks such as Object Detection, Image Classification and othe
   **💡Hyperparameter Tuning:**
   - Hyperparameter Tuning refers to the training of model's parameters and hyperparameters control how the training goes. They are generally set manually. Model parameters are learned from data and hyper-parameters are tuned to get the best fit. Searching for the best hyper-parameter can be tedious.
   - Today, I learned about mechanics of learning, loss function, broadcasting, optimizing the training Loop, overtraining, learning rate, hyperparameter tuning, Normalizing the Inputs, visualization or plotting the data, , Linear Model, gradient descent, backpropagation, PyTorch's Autograd. Here, I have presented the implementation of simple linear model, mechanics of learning, gradient function, training loop, gradient descent , visualization using PyTorch in the snapshot. I hope you will gain some insights and spend the time learning the topics. Excited about the days ahead!
-
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/50_a_hyperparameter_tuning.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/50_b_hyperparameter_tuning.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/50_c_hyperparameter_tuning.png)
@@ -616,7 +604,6 @@ others for various tasks such as Object Detection, Image Classification and othe
   **💡Optimizers:**
   - It is very important to tweak the weights of the model during the training process, to make our predictions as correct and optimized as possible so we use optimizers. Optimizers are methods used to minimize a loss function or to maximize the efficiency of production. They are just a mathematical functions which are dependent on model’s learnable parameters i.e Weights & Biases. There are several types of optimizers like, gradient descent, SGD, RMS-Prop, Ada-delta, Adam, etc.
   - Today, I learned about pytorch autograd,  to compute the gradient,  accumulating the grad function, optimizers, stochastic gradient descent, etc. Here, I have presented the implementation of working with simple linear model, gradient function, training loop, loss function, implementation of SGD in the snapshot. I hope you will gain some insights and spend the time learning the topics. Excited about the days ahead!
-
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/51_a_optimizers.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/51_b_optimizers.png)
 
@@ -636,3 +623,11 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Today, I learned about artificial neural network, weights, biases, activation function, error function, etc. Here, I have presented the implementation simple linear model, neural network, along with the training loop using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/53_a_activation_function.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/53_b_activation_function.png)
+
+**Day54 of 66DaysOfData!**
+
+  **💡Neural Network:**
+  - Neural networks are non-linear statistical data modeling or decision making tools. They can be used to model complex relationships between input and output or to find patterns in data. It involves a network of simple processing elements which can exhibit complex global behavior, determined by the connections between the processing elements and element parameters. 
+  - Today, I learned about artificial neural network, ordereddict module, sequential model, Tanh Activation function, Overfitting, etc. Here, I have presented the implementation Sequential Model, OrderedDict Submodule using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/54_a_neural_networks.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/54_b_neural_networks.png)
