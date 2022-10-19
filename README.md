@@ -631,3 +631,10 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Today, I learned about artificial neural network, ordereddict module, sequential model, Tanh Activation function, Overfitting, etc. Here, I have presented the implementation Sequential Model, OrderedDict Submodule using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/54_a_neural_networks.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/54_b_neural_networks.png)
+
+**Day55 of 66DaysOfData!**
+
+  **💡Image Recognition:**
+  - Image recognition is a subcategory of computer vision, which is an overarching label for the process of training computers to see like humans and take action, where it analyzes pixel patterns in order to categorize an entire image. It is able to assign a single, high-level label to an image by analyzing and interpreting the image's pixel patterns. 
+  - Today, I started learning new chapter from the book and here I learned about image recognition, Explored CIFAR-10 image dataset, PIL package, Normalizing data, etc. Here, I have presented implementation of CIFAR-10 dataset and explored it using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/55_image_recognition.png)
