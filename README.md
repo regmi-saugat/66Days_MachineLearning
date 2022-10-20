@@ -638,3 +638,10 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Image recognition is a subcategory of computer vision, which is an overarching label for the process of training computers to see like humans and take action, where it analyzes pixel patterns in order to categorize an entire image. It is able to assign a single, high-level label to an image by analyzing and interpreting the image's pixel patterns. 
   - Today, I started learning new chapter from the book and here I learned about image recognition, Explored CIFAR-10 image dataset, PIL package, Normalizing data, etc. Here, I have presented implementation of CIFAR-10 dataset and explored it using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/55_image_recognition.png)
+
+**Day56 of 66DaysOfData!**
+
+  **💡Softmax Activation Function:**
+  - Softmax is a mathematical function that converts a vector of numbers into a vector of probabilities, where the probabilities of each value are proportional to the relative scale of each value in the vector. The softmax function is used as the activation function in the output layer of neural network models that predict multi-class classification problems where class membership is required on more than two class labels.
+  - Today, I continued learning from the pervious topic and learned about softmax function, neural network module, loss classification, SGD, logsoftmax function, loss function, NLL Loss, etc. Here, I have presented implementation of softmax function, training loop, and build neural network model using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/56_softmax_activation_function.png)
