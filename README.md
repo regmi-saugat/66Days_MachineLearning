@@ -645,3 +645,10 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Softmax is a mathematical function that converts a vector of numbers into a vector of probabilities, where the probabilities of each value are proportional to the relative scale of each value in the vector. The softmax function is used as the activation function in the output layer of neural network models that predict multi-class classification problems where class membership is required on more than two class labels.
   - Today, I continued learning from the pervious topic and learned about softmax function, neural network module, loss classification, SGD, logsoftmax function, loss function, NLL Loss, etc. Here, I have presented implementation of softmax function, training loop, and build neural network model using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/56_softmax_activation_function.png)
+
+**Day57 of 66DaysOfData!**
+
+  **💡Cross Entropy:**
+  - Cross entropy indicates the distance between what the model believes the output distribution should be, and what the original distribution really is. Cross entropy measure a widely used alternative of squared error. It is used when node activations can be understood as representing the probability that each hypothesis might be true, i.e. when the output is a probability distribution. Thus it is used as a loss function in neural networks which have softmax activations in the output layer.
+  - Today, I activation functions, gradient descent, Log Softmax Function, Cross Entropy Loss Function, Data Loader, etc. Here, I have presented implementation of deep neural network, trained the classifier, model evaluation using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/57_cross_entropy.png)
