@@ -652,3 +652,10 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Cross entropy indicates the distance between what the model believes the output distribution should be, and what the original distribution really is. Cross entropy measure a widely used alternative of squared error. It is used when node activations can be understood as representing the probability that each hypothesis might be true, i.e. when the output is a probability distribution. Thus it is used as a loss function in neural networks which have softmax activations in the output layer.
   - Today, I activation functions, gradient descent, Log Softmax Function, Cross Entropy Loss Function, Data Loader, etc. Here, I have presented implementation of deep neural network, trained the classifier, model evaluation using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/57_cross_entropy.png)
+
+**Day58 of 66DaysOfData!**
+
+  **💡Convolutional Neural Network:**
+  - A Convolutional Neural Network is a Deep Learning algorithm which can take in an input image, assign importance to various aspects/objects in the image and be able to differentiate one from the other. The pre-processing required in a ConvNet is much lower as compared to other classification algorithms. The role of the ConvNet is to reduce the images into a form which is easier to process, without losing features which are critical for getting a good prediction.
+  - Today I started learning the new topic from the same book and learned about what convolutions do, padding, Model Parameter, Kernel Size, Detecting features with convolutions, etc. Here, I have presented implementation of convolutional neural network, and build the data using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/58_convolutional_NN.png)
