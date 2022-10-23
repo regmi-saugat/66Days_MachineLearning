@@ -659,3 +659,10 @@ others for various tasks such as Object Detection, Image Classification and othe
   - A Convolutional Neural Network is a Deep Learning algorithm which can take in an input image, assign importance to various aspects/objects in the image and be able to differentiate one from the other. The pre-processing required in a ConvNet is much lower as compared to other classification algorithms. The role of the ConvNet is to reduce the images into a form which is easier to process, without losing features which are critical for getting a good prediction.
   - Today I started learning the new topic from the same book and learned about what convolutions do, padding, Model Parameter, Kernel Size, Detecting features with convolutions, etc. Here, I have presented implementation of convolutional neural network, and build the data using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/58_convolutional_NN.png)
+
+**Day59 of 66DaysOfData!**
+
+  **💡Down Sampling:**
+  - Downsampling could in principle occur in different ways. Scaling an image by half is the equivalent of taking four neighboring pixels as input and producing one pixel as output.
+  - Today I learned about Pooling Layer, downsampling, Padding, Subclassing nn.Module, Sequential Model, Modular API, Functional API, Training ConvNet, etc. Here, I have presented implementation of subclassing Modular API, and Functional API using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/59_downsampling.png)
