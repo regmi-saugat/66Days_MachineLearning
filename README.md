@@ -666,3 +666,10 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Downsampling could in principle occur in different ways. Scaling an image by half is the equivalent of taking four neighboring pixels as input and producing one pixel as output.
   - Today I learned about Pooling Layer, downsampling, Padding, Subclassing nn.Module, Sequential Model, Modular API, Functional API, Training ConvNet, etc. Here, I have presented implementation of subclassing Modular API, and Functional API using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/59_downsampling.png)
+
+**Day60 of 66DaysOfData!**
+
+  **💡Down Sampling:**
+  - Downsampling could in principle occur in different ways. Scaling an image by half is the equivalent of taking four neighboring pixels as input and producing one pixel as output.
+  - Continuing from yesterday's topic, I learned about CrossEntropy Loss Function, Training ConvNet, SGD, measuring accuracy, saving and loading our model, etc. Here, I have presented the implementation of the training loop and measured the accuracy of the model using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/60_downsampling.png)
