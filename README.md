@@ -673,3 +673,10 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Downsampling could in principle occur in different ways. Scaling an image by half is the equivalent of taking four neighboring pixels as input and producing one pixel as output.
   - Continuing from yesterday's topic, I learned about CrossEntropy Loss Function, Training ConvNet, SGD, measuring accuracy, saving and loading our model, etc. Here, I have presented the implementation of the training loop and measured the accuracy of the model using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/60_downsampling.png)
+
+**Day61 of 66DaysOfData!**
+
+  **💡Regularization:**
+  - The popular regularization terms are L2 regularization is the sum of squares of all weights in the model, and L1 regularization, which is the sum of the absolute values of all weights in the model. Both of them are scaled by a small factor, which is a hyperparameter we set prior to training. Adding L2 regularization to the loss function is equivalent to decreasing each weight by an amount proportional to its current value during the optimization step. 
+  - Today I learned about Designing Model, LSTM, Optimization, Generalization, L1Regularization, L2Regularization, Activation Function, etc. Here, I have presented implementation of L2Regulaization(Weight Decay), and Dropout Layer using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/61_regularization.png)
