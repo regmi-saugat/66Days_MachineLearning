@@ -680,3 +680,11 @@ others for various tasks such as Object Detection, Image Classification and othe
   - The popular regularization terms are L2 regularization is the sum of squares of all weights in the model, and L1 regularization, which is the sum of the absolute values of all weights in the model. Both of them are scaled by a small factor, which is a hyperparameter we set prior to training. Adding L2 regularization to the loss function is equivalent to decreasing each weight by an amount proportional to its current value during the optimization step. 
   - Today I learned about Designing Model, LSTM, Optimization, Generalization, L1Regularization, L2Regularization, Activation Function, etc. Here, I have presented implementation of L2Regulaization(Weight Decay), and Dropout Layer using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/61_regularization.png)
+
+**Day62 of 66DaysOfData!**
+
+  **💡Batch Normalization:**
+  - The main idea behind batch normalization is to rescale the inputs to the activations of the network so that minibatches have a certain desirable distribution. Batch normalization shifts and scales an intermediate input using the mean and standard deviation collected at that intermediate location over the samples of the minibatch.
+  - Today I learned about dropout layer, regularization, batch normalization, and revised some previous concepts. Here, I have presented implementation of Batch Normalization and Depth Model using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/62_a_batch_normalization.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/62_b_batch_normalization.png)
