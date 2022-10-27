@@ -688,3 +688,11 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Today I learned about dropout layer, regularization, batch normalization, and revised some previous concepts. Here, I have presented implementation of Batch Normalization and Depth Model using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/62_a_batch_normalization.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/62_b_batch_normalization.png)
+
+**Day63 of 66DaysOfData!**
+
+  **💡ResNet:**
+  - In ResNet, the output from the previous layer, called residual, is added to the output of the current layer. The skip connections in ResNet solve the problem of vanishing gradient in deep neural networks by allowing this alternate shortcut path for the gradient to flow through. 
+  - Today I learned about residual block, ResNet Architecture, Sequential and Functional API. Here, I have presented implementation ofResNet Architecture and Depth Neural Network Model using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/63_a_resnet.png)
+[Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/63_b_resnet.png)
