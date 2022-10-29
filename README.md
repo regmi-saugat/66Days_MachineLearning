@@ -696,3 +696,12 @@ others for various tasks such as Object Detection, Image Classification and othe
   - Today I learned about residual block, ResNet Architecture, Sequential and Functional API. Here, I have presented implementation ofResNet Architecture and Depth Neural Network Model using PyTorch in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/63_a_resnet.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/63_b_resnet.png)
+
+**Day64 of 66DaysOfData!**
+
+  **💡Transfer Learning:**
+  - Transfer learning is a research problem in machine learning that focuses on storing knowledge gained while solving one problem and applying it to a different but related problem. For example, knowledge gained while learning to recognize cars could apply when trying to recognize trucks.
+  - Today I learned about transfer learning, fine tuning, feature extraction, and revised some previous concepts. Here, I have presented implementation of Transfer Learning with fine tuning method in the snapshot. I hope you will gain some insights and spend time learning the topics. Excited about the days ahead!
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/64_a_transferlearning.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/64_b_transferlearning.png)
+![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/64_c_transferlearning.png)
