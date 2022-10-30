@@ -705,3 +705,18 @@ others for various tasks such as Object Detection, Image Classification and othe
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/64_a_transferlearning.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/64_b_transferlearning.png)
 ![Images](https://github.com/regmi-saugat/66Days_MachineLearning/blob/main/Images/64_c_transferlearning.png)
+
+**Day65 of 66DaysOfData!**
+
+  **💡Recurrent Neural Network:**
+  - A recurrent neural network is a class of artificial neural networks where connections between nodes can create a cycle, allowing output from some nodes to affect subsequent input to the same nodes. This allows it to exhibit temporal dynamic behavior. The hidden state of an RNN can capture historical information of the sequence up to the current time step.
+  
+  - Advantages of Recurrent Neural Network:
+    - Ability to handle sequence data
+    - Ability to handle inputs of varying lengths
+    - Ability to store or “memorize” historical information
+
+  - Disadvantages of Recurrent Neural Network:
+    - The computation can be very slow.
+    - The network does not take into account future inputs to make decisions.
+    - Vanishing gradient problem, where the gradients used to compute the weight update may get very close to zero, preventing the network from learning new weights. The deeper the network, the more pronounced this problem is.
