@@ -720,3 +720,7 @@ others for various tasks such as Object Detection, Image Classification and othe
     - The computation can be very slow.
     - The network does not take into account future inputs to make decisions.
     - Vanishing gradient problem, where the gradients used to compute the weight update may get very close to zero, preventing the network from learning new weights. The deeper the network, the more pronounced this problem is.
+
+**Day65 of 66DaysOfData!**
+- RNN are also known as sequence models that are used mainly in the field of natural language processing as well as some other areas such as speech to text translation, video activity monitoring, etc. RNN can handle sequential data, accepting the current input data, and previously received inputs. RNNs can memorize previous inputs due to their internal memory.
+- Today I learned about some basics of RNN including vanishing and exploding gradient problem in RNN and it's solutions, backpropagation through time, LSTM, and some few more topics.
